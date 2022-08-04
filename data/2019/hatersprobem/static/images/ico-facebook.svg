@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="29px" viewBox="0 0 15 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <polygon id="path-1" points="0 0 14.0322581 0 14.0322581 29 0 29"></polygon>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-368.000000, -1943.000000)">
+            <g id="Group-9" transform="translate(166.000000, 1928.000000)">
+                <g id="Group-3" transform="translate(202.000000, 15.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M9.26241837,8.68571033 L9.26241837,6.35689549 C9.26241837,5.24012032 10.0277063,4.97269111 10.5816347,4.97269111 L13.9509202,4.97269111 L13.9509202,0 L9.31169602,0 C4.15119731,0 2.99525035,3.68202956 2.99525035,6.07397146 L2.99525035,8.68571033 L0,8.68571033 L0,12.1944274 L0,14.4922526 L3.02790422,14.4922526 L3.02790422,29 L9.0350287,29 L9.0350287,14.4922526 L13.4789234,14.4922526 L13.6742529,12.2104961 L14.0322581,8.68571033 L9.26241837,8.68571033 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
