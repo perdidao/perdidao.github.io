@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1000px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+a { color: inherit; text-decoration: none; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#box-image { width: 1240px; height: 230px; margin: 0 auto; position: relative; background: transparent url(../img/sobre.jpg) no-repeat center center; }
+
+.col-left { width: 48%; float: left; margin-top: 20px; }
+
+.col-right { width: 48%; float: right; margin-top: 20px; }
+
+h3 { font-size: 18px; font-size: 1.125rem; font-weight: 600; text-transform: uppercase; color: #29b8d8; margin-top: 60px; }
+
+p { margin: 10px 0; line-height: 1.4em; }
+
+#lista-areas > li { margin-top: 30px; }
+
+#lista-areas li .ico { width: 100px; height: 100px; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; background-color: #1b4a74; background-position: center center; background-repeat: no-repeat; float: left; margin: 0 10px 10px 0; }
+
+#lista-areas li .ico.ico-administrativa { background-image: url(../img/ico-administrativa.png); }
+
+#lista-areas li .ico.ico-financeira { background-image: url(../img/ico-financeira.png); }
+
+#lista-areas li .ico.ico-juridica { background-image: url(../img/ico-juridica.png); }
+
+#lista-areas li .ico.ico-rh { background-image: url(../img/ico-rh.png); }
+
+#lista-areas li h3 { font-size: 22px; font-size: 1.375rem; text-transform: uppercase; font-weight: 600; margin: 30px 0; color: #444; }
+
+#lista-areas li h3 span { font-size: 18px; font-size: 1.125rem; display: block; font-weight: 400; }
+
+#lista-areas li .topicos { line-height: 1.3em; clear: both; }
+
+#lista-areas li .topicos li { float: left; margin-bottom: 10px; text-indent: 7px; background: transparent url(../img/bullet.png) no-repeat left 8px; }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Didot Headline';
+    src: url('didotltstd-headline.eot');
+    src: url('didotltstd-headline.eot') format('embedded-opentype'),
+         url('didotltstd-headline.woff2') format('woff2'),
+         url('didotltstd-headline.woff') format('woff'),
+         url('didotltstd-headline.ttf') format('truetype'),
+         url('didotltstd-headline.svg#DidotLTStdHeadline') format('svg');
+}

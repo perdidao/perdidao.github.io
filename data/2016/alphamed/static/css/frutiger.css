@@ -1,0 +1,15 @@
+@font-face {
+  font-family:'Frutiger';
+  src:url('../font/FrutigerLTStd-Bold.eot?#iefix') format('embedded-opentype'),  url('../font/FrutigerLTStd-Bold.otf')  format('opentype'),
+	     url('../font/FrutigerLTStd-Bold.woff') format('woff'), url('../font/FrutigerLTStd-Bold.ttf')  format('truetype'), url('../font/FrutigerLTStd-Bold.svg#FrutigerLTStd-Bold') format('svg');
+  font-weight:600;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:'Frutiger Condensed';
+  src:url('../font/FrutigerLTStd-BoldCn.eot?#iefix') format('embedded-opentype'),  url('../font/FrutigerLTStd-BoldCn.otf')  format('opentype'),
+	     url('../font/FrutigerLTStd-BoldCn.woff') format('woff'), url('../font/FrutigerLTStd-BoldCn.ttf')  format('truetype'), url('../font/FrutigerLTStd-BoldCn.svg#FrutigerLTStd-BoldCn') format('svg');
+  font-weight:600;
+  font-style:normal;
+}

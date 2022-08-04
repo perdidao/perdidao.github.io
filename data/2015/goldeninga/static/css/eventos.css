@@ -1,0 +1,73 @@
+@import url("../fonts/didot_italic/didotitalic.css");
+@import url("../fonts/didot_regular/didotregular.css");
+@import url("../fonts/didot_headline/didotheadline.css");
+@import url("../fonts/futura_book/futurabook.css");
+@import url("../fonts/futura_book_italic/futurabookitalic.css");
+@import url("../fonts/futura_light/futuralight.css");
+@import url("../fonts/futura_light_italic/futuralightitalic.css");
+@import url("../fonts/futura_medium/futuramedium.css");
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1240px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+#headline { width: 100%; height: 620px; background: url(../img/bkg-banner-eventos.jpg) no-repeat center top; margin-bottom: 70px; }
+
+#headline .ilustra-evento { float: left; width: 100%; height: 150px; background: url(../img/linha-eventos.png) no-repeat center center; margin-top: 160px; color: #FFF; }
+
+#headline .ilustra-evento h2 { display: block; float: left; font-family: "Didot Italic", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; font-size: 45px; font-size: 2.8125rem; margin: 80px 0 0 35%; max-width: 700px; }
+
+#headline .ilustra-evento p { display: block; float: left; font-family: "Didot Roman", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; font-size: 25px; font-size: 1.5625rem; margin: 60px 0 0 35%; max-width: 700px; }
+
+::-webkit-input-placeholder { color: #1D334D; }
+
+:-moz-placeholder { color: #1D334D; opacity: 1; }
+
+::-moz-placeholder { color: #1D334D; opacity: 1; }
+
+:-ms-input-placeholder { color: #1D334D; }
+
+#filtros { width: 480px; margin: 0 auto; }
+
+#filtros input { float: left; border: 0; background-color: #FFF; outline: 0; color: #1D334D; font-family: "Futura Book Italic", Futura, Trebuchet MS, Arial, sans-serif; font-size: 18px; font-size: 1.125rem; display: block; width: 80%; height: 46px; padding-left: 15px; }
+
+#filtros .filtro { float: left; width: 210px; height: 50px; margin: 0 15px; border: 2px solid #1D334D; }
+
+#filtros .filtro.f-select { position: relative; }
+
+#dropdown { display: block; float: left; width: 20%; height: 46px; background: url(../img/ico-dropdown.png) no-repeat center center; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#dropdown.active { -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+
+#opcoes { display: none; position: absolute; top: 48px; z-index: 10; left: -2px; width: 210px; }
+
+#opcoes li { display: block; width: 100%; }
+
+#opcoes li a { display: block; width: 100%; height: 50px; line-height: 46px; border: 2px solid #E2EFFF; border-top: 0; background-color: #FFF; padding-left: 15px; font-family: "Futura Book Italic", Futura, Trebuchet MS, Arial, sans-serif; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#opcoes li a.active, #opcoes li a:hover { background-color: #E2EFFF; }
+
+#buscar { display: block; float: left; width: 20%; height: 46px; background: url(../img/ico-buscar.png) no-repeat center center; }
+
+#itens { margin-top: 60px; }
+
+#itens li { float: left; width: 33%; margin: 0 0.15% 5px; position: relative; }
+
+#itens li img { display: block; width: 100%; }
+
+#itens li a.hover { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: url(../img/bkg-hover-eventos.png) no-repeat center center; background-size: 100% 100%; text-align: center; color: #FFF; }
+
+#itens li a.hover h3 { display: block; width: 100%; text-align: center; font-family: "Didot Headline", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; font-size: 29px; font-size: 1.8125rem; margin-top: 20%; margin-bottom: 20px; }
+
+#itens li a.hover .ver-mais { width: 100%; height: 79px; background: url(../img/ver-evento.png) no-repeat center center; }
+
+@media screen and (max-width: 1090px) { #headline .ilustra-evento h2, #headline .ilustra-evento p { margin-left: 30%; }
+  #itens li { width: 50%; margin: 0; } }
+@media screen and (max-width: 660px) { #itens li { width: 100%; } }

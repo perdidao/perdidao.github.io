@@ -1,0 +1,168 @@
+@import url(../font/fonts.css);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1000px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { text-decoration: none; color: inherit; }
+
+body { background-color: #FFF; font-family: "Apercu", Helvetica, Arial, sans-serif; font-weight: 400; font-size: 14px; font-size: 0.875rem; line-height: 1.3em; color: #5d492d; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; min-width: 400px; }
+
+::-moz-selection { background-color: #d178a0; color: #FFF; }
+::selection { background-color: #d178a0; color: #FFF; }
+
+h2 { color: #d178a0; font-size: 28px; font-size: 1.75rem; margin-bottom: 15px; }
+
+p { margin-bottom: 20px; }
+
+#fixed-header { width: 100%; height: 100px; background:url(../img/bkg-menu.jpg) no-repeat center -1px; position: fixed; z-index: 10; top: 0; left: 0; }
+
+#logo { width: 91px; height: 80px; margin: 10px 0; background: transparent url(../img/logo.png) no-repeat center center; float: left; }
+
+#main-nav { float: right; }
+
+#main-nav a { display: block; float: left; padding: 50px 15px 7px; -moz-transition: all 300ms linear; -o-transition: all 300ms linear; -webkit-transition: all 300ms linear; transition: all 300ms linear; }
+
+#main-nav a:hover { color: #d178a0; }
+
+#main-nav a.active { background: #bc6c90; background: -moz-linear-gradient(top, #d178a0 0%, #bc6c90 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d178a0), color-stop(100%, #bc6c90)); background: -webkit-linear-gradient(top, #d178a0 0%, #bc6c90 100%); background: -o-linear-gradient(top, #d178a0 0%, #bc6c90 100%); background: -ms-linear-gradient(top, #d178a0 0%, #bc6c90 100%); background: linear-gradient(to bottom, #d178a0 0%, #bc6c90 100%); color: #FFF; }
+
+#inicial { background: white url(../img/lel-inicial.jpg) no-repeat left 100%; background-size: 65%; }
+
+#inicial .center { position: relative; }
+
+#tipo { display: block; width: 431px; height: 299px; background: transparent url(../img/tipo.png) no-repeat center center; position: absolute; z-index: 1; top: 160px; right: 0; text-indent: -999999px; overflow: hidden; }
+
+#casal { background: black url(../img/lel-casal.jpg) no-repeat center bottom; background-size: 100%; }
+
+.col-text { width: 30%; float: left; margin-top: 150px; }
+
+.col-center { width: 50%; margin: 20px auto 0; color: #FFF; text-align: center; }
+
+.col-text p { color: #FFF; }
+
+.col-text.col-lais { margin: 150px 2% 0 18%; }
+
+.col-text.col-lucas { margin: 150px 18% 0 2%; text-align: right; }
+
+#padrinhos { padding-bottom: 520px; background: transparent url(../img/lel-padrinhos.jpg) no-repeat center bottom; }
+
+#padrinhos-lais { float: left; width: 490px; margin-top: 130px; }
+
+#padrinhos-lucas { float: right; width: 490px; margin-top: 130px; }
+
+#padrinhos li { width: 100%; position: relative; margin-bottom: 20px; }
+
+#padrinhos li img { display: block; width: 100%; }
+
+#padrinhos li .overlay { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(208, 120, 160, 0.9); padding: 20px; cursor: help; }
+
+#padrinhos li .overlay h2 { color: #FFF; }
+
+#fotos { background: black url(../img/lel-fotos.jpg) no-repeat top right; padding-top: 130px; }
+
+#fotos h2 { color: #FFF; text-transform: uppercase; }
+
+#fotos h2 span { color: #d178a0; letter-spacing: -0.15em; }
+
+#fotos h2 em { font-size: 14px; font-size: 0.875rem; }
+
+#galeria-fotos { width: 490px; height: 380px; margin-bottom: 30px; }
+
+#instagram { width: 100%; min-height:520px; }
+
+#instagram li { width: 16.666%; float: left; }
+
+#instagram li a { display: block; }
+
+#instagram li a img { display: block; width: 100%; }
+
+#enderecos { padding-top: 130px; }
+
+.box-imagem { float: left; width: 27%; margin-right: 3%; }
+
+.box-imagem img { display: block; }
+
+.box-endereco { float: left; width: 30%; margin-right: 3%; }
+
+.box-endereco p { margin-bottom: 0; }
+
+.box-chegar { float: left; width: 30%; }
+
+.box-chegar p { margin-bottom: 10px; }
+
+.box-chegar input { display: block; float: left; width: 200px; height: 30px; padding: 5px; border: 1px solid #CCC; font-family: "Apercu", Helvetica, Arial, sans-serif; font-size: 14px; font-size: 0.875rem; color: #5d492d; }
+
+.box-chegar button { display: block; float: left; width: 80px; height: 30px; margin-left: 10px; background-color: #d178a0; color: #FFF; font-family: "Apercu", Helvetica, Arial, sans-serif; font-size: 14px; font-size: 0.875rem; text-transform: uppercase; border: 0; cursor: pointer; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#mapa-igreja { width: 100%; height: 400px; margin-bottom: 40px; }
+
+#mapa-festa { width: 100%; height: 400px; }
+
+#presentes { background: white url(../img/lel-presentes.jpg) no-repeat right bottom; background-size: 60%; padding-top: 100px; }
+
+#presentes h2 { margin: 40px 0 20px; }
+
+#luademel{ width:100%; height:575px; padding-top:75px; background:#d178a0 url(../img/luademel/topo.jpg) no-repeat center bottom; }
+#headline{ display:block; width:100%; height:500px; background:url(../img/luademel/headline.png) no-repeat center center; }
+
+#recados { background: black url(../img/lel-recados.jpg) no-repeat left top; padding:140px 0; }
+
+#contato{ padding:150px 0 0; }
+#contato h2{ text-align:center; text-transform:uppercase; }
+#formulario{ max-width:480px; margin:40px auto; }
+#formulario input{ display:block; float:left; width:100%; height:40px; margin-bottom:20px; font-size:16px; font-family:"Apercu", Helvetica, Arial, sans-serif; color:#5d492d; outline:none; }
+#formulario input#email{ width:60%; }
+#formulario input#telefone{ width:36%; margin-left:4%; }
+#enviar{ display: block; float: right; padding:10px 40px; background-color: #d178a0; color: #FFF; font-family: "Apercu", Helvetica, Arial, sans-serif; font-size: 14px; font-size: 0.875rem; text-transform: uppercase; border: 0; cursor: pointer; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+#msg{ display:none; max-width:480px; margin:40px auto; border:1px solid #d178a0; padding:10px; }
+
+#fred{ background: white url(../img/fred.jpg) no-repeat center bottom; }
+
+@media screen and (max-width: 1000px) { .center { width: 96%; }
+  .fbcomments, .fb_iframe_widget, .fb_iframe_widget[style], .fb_iframe_widget iframe[style], .fbcomments iframe[style], .fb_iframe_widget span { width: 100% !important; }
+  #padrinhos-lais, #padrinhos-lucas { width: 49%; }
+  .box-imagem { display: none; }
+  .box-endereco { width: 47%; margin: 0 3% 20px 0; }
+  .box-chegar { width: 50%; margin-bottom: 20px; } }
+@media screen and (max-width: 720px) { #instagram li { width: 33.333%; float: left; } }
+@media screen and (max-width: 600px) { #logo { margin: 10px auto; float: none; }
+  #main-nav { display: none; }
+  #inicial { background-size: 100%; }
+  .col-text { width: 48%; }
+  .col-text.col-lais { margin: 100px 2% 0 0; }
+  .col-text.col-lucas { margin: 100px 0 0 2%; }
+  .col-center { width: 80%; margin-bottom: 100px; }
+  #padrinhos-lais { float: none; width: 100%; }
+  #padrinhos-lucas { float: none; width: 100%; margin: 0; }
+  #padrinhos li .overlay { display: block !important; position: static; width: 100%; height: auto; background-color: rgba(208, 120, 160, 0.9); padding: 20px; cursor: help; }
+  #padrinhos li .overlay h2 { color: #FFF; }
+  #galeria-fotos { width: 100%; }
+  .box-endereco { width: 100%; margin: 0 0 20px 0; }
+  .box-chegar { width: 100%; margin-bottom: 20px; }
+  #inicial { width: 100% !important; height: 600px !important; background-size: 100%; }
+  #tipo { width: 100%; background-size: 100%; top: 120px; }
+  #casal, #recados, #presentes { background-size: 100%; width: 100% !important; height: auto !important; } }
+@media screen and (max-width: 420px) { #instagram li { width: 50%; } }

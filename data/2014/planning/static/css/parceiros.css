@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1000px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+a { color: inherit; text-decoration: none; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#box-image { width: 1240px; height: 230px; margin: 0 auto; position: relative; background: transparent url(../img/parceiros.jpg) no-repeat center center; }
+
+p { margin: 10px 0; line-height: 1.4em; }
+
+#lista-parceiros li { width: 220px; height: 120px; border: 1px solid #CCC; background-color: #FFF; padding: 20px; float: left; margin: 0 40px 40px 0; }
+
+#lista-parceiros li.last { margin-right: 0; }
+
+#lista-parceiros li a { display: block; }
+
+#lista-parceiros li a img { display: block; width: 100%; }

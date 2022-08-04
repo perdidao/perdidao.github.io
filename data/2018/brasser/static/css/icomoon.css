@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@font-face { font-family: icomoon; src: url(../fonts/icomoon.eot?wsw52l); src: url(../fonts/icomoon.eot?#iefixwsw52l) format("embedded-opentype"), url(../fonts/icomoon.woff?wsw52l) format("woff"), url(../fonts/icomoon.ttf?wsw52l) format("truetype"), url(../fonts/icomoon.svg?wsw52l#icomoon) format("svg"); font-weight: 400; font-style: normal; }
+[class*=" icon-"], [class^=icon-] { font-family: icomoon; speak: none; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; background: transparent none repeat scroll 0 0; height: auto; width: 100%; }
+
+.icon-breakfast:before { content: ""; }
+
+.icon-desert:before { content: ""; }
+
+.icon-dinner:before { content: ""; }
+
+.icon-drinks:before { content: ""; }
+
+.icon-launch:before { content: ""; }
+
+.icon-bottom-draw:before { content: ""; }
+
+.icon-top-draw:before { content: ""; }
+
+.icon-home-ico:before { content: ""; }
+
+.icon-intro:before { content: ""; }

@@ -1,0 +1,227 @@
+@import url(fonts.css);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.center { width: 92%; max-width: 1000px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+.table { display: table; }
+
+.table-cell { display: table-cell; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+body { font-size: 15px; font-size: 0.9375rem; font-family: "Gotham Medium", Helvetica, Arial, Sans-serif; color: #414042; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+::-moz-selection { color: #FFF; background-color: #F78322; }
+
+::selection { color: #FFF; background-color: #F78322; }
+
+#header { width: 100%; height: 296px; background: #FFF url(../img/bkg-header-blog.jpg) no-repeat center top; }
+
+#logo { float: left; width: 84px; height: 73px; margin: 10px 0 0; background: url(../img/logo-blog.png) no-repeat center center; text-indent: -9999em; overflow: hidden; }
+
+#menu { float: right; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; font-size: 20px; font-size: 1.25rem; color: #0D7D7E; text-transform: uppercase; }
+
+#menu a { display: block; float: left; height: 92px; border-bottom: 4px solid transparent; margin-left: 30px; line-height: 92px; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#menu a:hover, #menu a.active { border-bottom-color: #F78322; }
+
+#content { margin: 20px auto 50px; border-top: 2px solid #0D7D7E; padding-top: 10px; }
+
+#content .col-left { float: left; width: 66%; margin-right: 2%; }
+
+#tags { text-align: center; margin-bottom: 40px; }
+
+#tags li { display: inline-block; margin: 0 20px; font-family: "Gotham Medium", Helvetica, Arial, Sans-serif; text-transform: uppercase; color: #F78322; }
+
+#tags li a { display: block; height: 30px; line-height: 30px; }
+
+#tags li a.active { font-family: "Gotham Black", Helvetica, Arial, Sans-serif; }
+
+#posts li { padding-bottom: 40px; margin-bottom: 40px; position: relative; }
+
+#posts li:after { content: ' '; display: block; width: 50%; height: 1px; background-color: #414042; position: absolute; bottom: 0; left: 25%; }
+
+#posts li h2 { font-size: 25px; font-size: 1.5625rem; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; text-transform: uppercase; color: #0D7D7E; margin-bottom: 10px; }
+
+#posts li p.date { font-family: "Gotham Light", Helvetica, Arial, Sans-serif; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px; }
+
+#posts li img { display: block; width: 100%; }
+
+#posts li p.content { font-family: helvetica, arial, sans-serif; font-size: 18px; font-size: 1.125rem; line-height: 1.3em; margin: 20px 0 10px; }
+
+#posts li .ler-mais { display: block; text-transform: uppercase; color: #F78322; float: right; font-size: 18px; font-size: 1.125rem; }
+
+#content .col-left .continuar { display: block; width: 100%; text-transform: uppercase; color: #414042; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; font-size: 20px; font-size: 1.25rem; text-align: center; }
+
+#content .col-right { float: left; width: 32%; }
+
+#content .col-right .follow { display: block; float: left; width: 31.3%; margin: 0 1%; text-align: center; height: 30px; line-height: 30px; color: #FFF; font-family: "Gotham Light", Helvetica, Arial, Sans-serif; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#content .col-right .follow:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+#content .col-right .follow.f-facebook { background: #39599F url(../img/bkg-facebook.jpg) no-repeat -5px center; }
+
+#content .col-right .follow.f-twitter { background: #45B0E2 url(../img/bkg-twitter.jpg) no-repeat -5px center; }
+
+#content .col-right .follow.f-gplus { background: #B62513 url(../img/bkg-gplus.jpg) no-repeat -5px center; }
+
+#post h2 { font-size: 25px; font-size: 1.5625rem; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; text-transform: uppercase; color: #0D7D7E; margin-bottom: 10px; }
+
+#post p.date { font-family: "Gotham Light", Helvetica, Arial, Sans-serif; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 20px; }
+
+#post figure { margin-bottom: 20px; }
+
+#post img { display: block; width: 100%; }
+
+#post p { font-family: helvetica, arial, sans-serif; font-size: 18px; font-size: 1.125rem; line-height: 1.3em; margin: 0 0 20px; }
+
+#share { margin-top: 60px; padding-bottom: 20px; border-bottom: 1px solid #414042; }
+
+#share h3 { text-transform: uppercase; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; font-size: 20px; font-size: 1.25rem; text-align: center; }
+
+#share ul { text-align: center; margin-top: 10px; }
+
+#share ul li { display: inline-block; margin: 0 10px; }
+
+#share ul li a { display: block; width: 40px; height: 40px; background-repeat: no-repeat; background-position: center center; }
+
+#share ul li a.fb { background-image: url(../img/i-facebook.png); }
+
+#share ul li a.tw { background-image: url(../img/i-twitter.png); }
+
+#share ul li a.gp { background-image: url(../img/i-gplus.png); }
+
+.veja-tambem { margin: 40px 0; }
+
+.veja-tambem h3 { text-align: center; text-transform: uppercase; font-size: 20px; font-size: 1.25rem; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; margin: 0 0 20px; color: #414042; }
+
+.veja-tambem .post { display: block; float: left; width: 48%; margin: 0 4% 30px 0; }
+
+.veja-tambem .post.last { margin-right: 0; }
+
+.veja-tambem .post .image { margin-bottom: 10px; }
+
+.veja-tambem .post .image img { display: block; width: 100%; }
+
+.veja-tambem .post h4 { font-size: 20px; font-size: 1.25rem; text-transform: uppercase; line-height: 1.2em; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; }
+
+.veja-tambem .proximo { display: block; float: left; width: 33.33%; height: 25px; line-height: 25px; font-size: 20px; font-size: 1.25rem; text-transform: uppercase; padding-left: 30px; background: url(../img/prev.png) no-repeat left center; }
+
+.veja-tambem .inicio { display: block; float: left; width: 33.33%; height: 25px; line-height: 25px; font-size: 20px; font-size: 1.25rem; text-transform: uppercase; text-align: center; }
+
+.veja-tambem .anterior { display: block; float: left; width: 33.33%; height: 25px; line-height: 25px; font-size: 20px; font-size: 1.25rem; text-transform: uppercase; text-align: right; padding-right: 30px; background: url(../img/next.png) no-repeat right center; }
+
+#backup { font-family: "Gotham Black", Helvetica, Arial, Sans-serif; margin: 30px 0; }
+
+#backup h2 { display: block; width: 100%; padding: 15px; border: 1px solid #0D7D7E; color: #0D7D7E; text-transform: uppercase; font-size: 20px; font-size: 1.25rem; text-align: center; margin-bottom: 10px; }
+
+#backup .btn-datas { display: block; width: 100%; padding: 15px; border: 1px solid #0D7D7E; color: #0D7D7E; text-transform: uppercase; font-size: 20px; font-size: 1.25rem; text-align: center; background: url(../img/arw-down.png) no-repeat right center; }
+
+#arquivo { display: none; width: 100%; }
+
+#arquivo li a { display: block; width: 100%; color: #0D7D7E; text-align: center; padding: 10px; border: 1px solid #0D7D7E; border-top: 0; text-transform: uppercase; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#arquivo li a:hover { background: #e4f0fc; }
+
+#contato { width: 100%; background: url(../img/bkg-contato.jpg) repeat center top; padding: 30px 0 0; }
+
+#contato .center { height: 660px; background: url(../img/box-contato.png) no-repeat center center; background-size: contain; padding: 270px 120px 0; color: #555E7E; }
+
+#contato h2 { text-align: center; font-family: "Intro", Helvetica, Arial, Sans-serif; font-size: 60px; font-size: 3.75rem; line-height: 0.8em; color: #F78322; margin-bottom: 40px; }
+
+#contato .col-left { float: left; width: 40%; }
+
+#contato p, #contato label { font-size: 22px; font-size: 1.375rem; line-height: 37px; margin-bottom: 20px; }
+
+#contato label { display: block; margin-bottom: 10px; }
+
+#contato .col-right { float: right; width: 55%; }
+
+#contato .col-right p { margin-bottom: 5px; }
+
+#contato .col-right .ico-facebook { display: inline-block; width: 46px; height: 46px; margin-bottom: 20px; background: url(../img/ico-facebook.png) no-repeat center center; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#contato .col-right .ico-facebook:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+#contato .col-right form input { display: block; float: left; width: 70%; height: 46px; border: 2px solid #E9E5DC; font-family: "Gotham Light", Helvetica, Arial, Sans-serif; font-size: inherit; padding: 0 20px; }
+
+#contato .col-right #enviar { display: block; float: left; width: 30%; height: 46px; border: 0; background: #5EBFBF; color: #FFF; font-family: inherit; text-transform: uppercase; font-size: 20px; font-size: 1.25rem; cursor: pointer; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#contato .col-right #enviar:hover { background-color: #F78322; }
+
+#mapa { width: 100%; height: 280px; background-color: #E9E5DC; }
+
+#footer { width: 100%; padding: 20px 0; background-color: #7D7D7D; }
+
+#logo-alt { float: left; width: 84px; height: 73px; margin-left: 20px; background: url(../img/logo-alt.png) no-repeat center center; }
+
+#info { float: right; width: 850px; color: #E1E1E1; margin-top: 20px; }
+
+#info a { -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#info a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+#info .lower-menu { float: left; }
+
+#info .lower-menu li { display: inline-block; margin: 0 5px; }
+
+#info .lower-menu li a { text-transform: uppercase; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; }
+
+#info .facebook { display: block; float: right; font-size: 12px; font-size: 0.75rem; height: 22px; padding-right: 29px; line-height: 22px; text-transform: uppercase; background: url(../img/ico-facebook-alt.png) no-repeat right center; }
+
+#info .copy { float: left; margin-top: 20px; font-size: 12px; font-size: 0.75rem; font-family: "Gotham Black", Helvetica, Arial, Sans-serif; text-transform: uppercase; }
+
+#info .assinatura { display: block; float: right; margin-top: 15px; font-size: 12px; font-size: 0.75rem; text-transform: uppercase; height: 17px; line-height: 21px; padding-right: 44px; background: url(../img/m2mp.png) no-repeat right center; }
+
+@media screen and (max-width: 1080px) { #logo-alt { margin-left: 0; }
+  #info { float: left; width: 70%; margin: 0 0 0 5%; }
+  #info .facebook { float: left; margin-top: 20px; }
+  #info .copy { width: 100%; }
+  #info .assinatura { float: left; margin-top: 20px; } }
+@media screen and (max-width: 1000px) { #logo { margin-left: 0; }
+  #menu { margin-right: 0; }
+  #menu a { margin: 0 0 0 20px; }
+  #tags li { margin: 0 10px; }
+  .col-right .follow { width: 100%; margin: 0 0 10px; }
+  #backup .btn-datas { background: none; }
+  #contato { padding: 50px 0; }
+  #contato .center { padding: 40px; height: auto; background: #FFF; }
+  #contato h2 { margin-bottom: 20px; } }
+@media screen and (max-width: 840px) { #logo { float: none; margin: 10px auto 0; }
+  #menu { display: none; }
+  #logo-alt { float: none; margin: 0 auto 20px; }
+  #info { width: 100%; margin: 0; }
+  #info .lower-menu { width: 100%; } }
+@media screen and (max-width: 760px) { #contato { text-align: center; }
+  #contato .col-left { width: 100%; margin-bottom: 40px; }
+  #contato .col-right { float: left; width: 100%; } }
+@media screen and (max-width: 720px) { #content .col-left { width: 100%; margin: 0; }
+  #content .col-right { display: none; } }
+@media screen and (max-width: 640px) { #info { text-align: center; }
+  #info .lower-menu { display: none; }
+  #info .facebook, #info .assinatura { display: inline-block; float: none; } }
+@media screen and (max-width: 420px) { #contato h2 { font-size: 40px; font-size: 2.5rem; }
+  #contato p, #contato label { font-size: 18px; font-size: 1.125rem; line-height: 1.2em; }
+  #contato .col-right form input { width: 100%; text-align: center; }
+  #contato .col-right #enviar { width: 100%; }
+  .veja-tambem .post { width: 100%; margin: 0 0 30px 0; }
+  .veja-tambem .proximo, .veja-tambem .inicio, .veja-tambem .anterior { display: none; } }

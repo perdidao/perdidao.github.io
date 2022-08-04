@@ -1,0 +1,59 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { max-width: 1260px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+#header { border-bottom: 10px solid #034B9C; margin-bottom: 35px; }
+
+#container { max-width: 940px; margin: 0 auto; }
+
+.topo-linha { width: 100%; border-bottom: 1px solid #034B9C; }
+
+.topo-linha .center { padding: 10px 0; }
+
+.topo-linha .voltar-marcas { display: block; float: left; width: 48%; border-bottom: 5px solid #034B9C; margin-bottom: -13px; padding: 0 0 25px 40px; font-size: 18px; font-size: 1.125rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.2em; color: #034B9C; background: url(../img/arw-left.png) no-repeat left 2px; }
+
+#artigo { font-family: Georgia, Times, Times New Roman, serif; font-style: italic; line-height: 40px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#artigo .data { display: block; margin: 20px 0 30px; }
+
+#artigo h1 { font-size: 32px; font-size: 2rem; font-weight: 600; color: #034B9C; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-style: normal; margin-bottom: 40px; }
+
+#artigo p { color: #939393; font-size: 24px; font-size: 1.5rem; margin-bottom: 40px; }
+
+#artigo p strong { color: #777; font-size: 27px; font-size: 1.6875rem; }
+
+#artigo figure { margin-bottom: 20px; }
+
+#artigo figure img { display: block; width: 100%; }
+
+#artigo .tags { border: 1px solid #034B9C; border-left-width: 10px; padding: 10px 20px; }
+
+#artigo .tags p { margin: 0; }
+
+.social { margin-top: 40px; }
+
+.social h2 { display: block; float: left; height: 60px; line-height: 60px; margin-right: 10px; padding-right: 20px; border-right: 1px solid #034B9C; font-size: 22px; font-size: 1.375rem; font-family: Georgia, Times, Times New Roman, serif; font-style: italic; color: #034B9C; }
+
+.social a { display: block; float: left; width: 30px; height: 30px; background-position: center center; background-repeat: no-repeat; margin: 15px 0 0 20px; }
+
+.social a.ico-facebook { background-image: url(../img/ico-facebook.png); }
+
+.social a.ico-gplus { background-image: url(../img/ico-gplus.png); }
+
+.social a.ico-twitter { background-image: url(../img/ico-twitter.png); }
+
+.social a.ico-linkedin { background-image: url(../img/ico-linkedin.png); }
+
+.social a.ico-mail { background-image: url(../img/ico-mail-alt.png); }
+
+@media screen and (max-width: 1300px) { .center, #container { margin: 0 3%; } }
+@media screen and (max-width: 1024px) { .center, #container { margin: 0 10%; } }

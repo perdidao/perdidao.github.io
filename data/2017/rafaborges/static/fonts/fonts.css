@@ -1,0 +1,14 @@
+@font-face {
+  font-family:'Brandon Grotesque';
+  src: url('BrandonGrotesque-Regular.eot?#iefix') format('embedded-opentype'),  url('BrandonGrotesque-Regular.otf')  format('opentype'),
+	     url('BrandonGrotesque-Regular.woff') format('woff'), url('BrandonGrotesque-Regular.ttf')  format('truetype'), url('BrandonGrotesque-Regular.svg#BrandonGrotesque-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Caslon';
+  src: url('CaslonGraphiqueEF.eot?#iefix') format('embedded-opentype'),  url('CaslonGraphiqueEF.woff') format('woff'), url('CaslonGraphiqueEF.ttf')  format('truetype'), url('CaslonGraphiqueEF.svg#CaslonGraphiqueEF') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

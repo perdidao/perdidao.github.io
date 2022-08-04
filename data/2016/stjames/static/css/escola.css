@@ -1,0 +1,82 @@
+.center { width: 92%; max-width: 1140px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+#header { min-height: 570px; background-image: url(../img/topo-escola.jpg); position: relative; }
+
+#graus { position: absolute; bottom: 0; left: 0; width: 100%; }
+
+#graus ul { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#graus ul li { float: left; width: 25%; text-align: center; padding-top: 10px; }
+
+#graus ul li.active { padding-top: 0; }
+
+#graus ul li a { display: block; padding: 15px 0; color: #FFF; text-transform: uppercase; font-style: italic; font-size: 20px; font-size: 1.25rem; }
+
+#graus ul li.active a { padding: 20px 0; }
+
+#graus ul li a.ei { background-color: #F4B10A; }
+
+#graus ul li a.f1 { background-color: #B9CF2A; }
+
+#graus ul li a.f2 { background-color: #A5C538; }
+
+#graus ul li a.em { background-color: #0380BD; }
+
+#graus #selo { width: 166px; height: 166px; background: url(../img/selo.png) no-repeat center center; position: absolute; left: 50%; margin-left: -83px; top: -40px; }
+
+#content { padding: 80px 0 30px; }
+
+#content h2 { text-align: center; font-size: 39px; font-size: 2.4375rem; text-transform: uppercase; margin-bottom: 45px; }
+
+#content p { line-height: 25px; }
+
+#topicos { margin-top: 50px; overflow: hidden; }
+
+#topicos li { float: left; width: 30%; min-height: 220px; margin: 0 1.5%; text-align: center; }
+
+#topicos li .ico { width: 100%; height: 61px; margin-bottom: 20px; background: no-repeat center center; }
+
+#topicos li .ico.pioneira { background-image: url(../img/ico-pioneira.png); }
+
+#topicos li .ico.valores { background-image: url(../img/ico-valores.png); }
+
+#topicos li .ico.imersao { background-image: url(../img/ico-imersao.png); }
+
+#topicos li .ico.espaco { background-image: url(../img/ico-espaco.png); }
+
+#topicos li .ico.curriculo { background-image: url(../img/ico-curriculo.png); }
+
+#topicos li .ico.paixao { background-image: url(../img/ico-paixao.png); }
+
+#topicos li .ico.escola { background-image: url(../img/ico-escola.png); }
+
+#topicos li .ico.dedicacao { background-image: url(../img/ico-dedicacao.png); }
+
+#topicos li .ico.linguas { background-image: url(../img/ico-linguas.png); }
+
+#topicos li h3 { font-size: 22px; font-size: 1.375rem; font-weight: 400; text-transform: uppercase; position: relative; padding-bottom: 14px; }
+
+#topicos li h3:after { content: ' '; display: block; width: 110px; height: 3px; background-color: #CCC; position: absolute; bottom: 0; left: 50%; -moz-transform: translatex(-50%); -ms-transform: translatex(-50%); -webkit-transform: translatex(-50%); transform: translatex(-50%); }
+
+#video h2 { text-align: left; font-size: 30px; font-size: 1.875rem; margin-bottom: 30px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#video iframe { width: 100%; height: 640px; }
+
+@media screen and (max-width: 1024px) { #graus #selo { top: -140px; }
+  #topicos li { width: 44%; margin: 0 3%; } }
+@media screen and (max-width: 860px) { #graus ul li { width: 50%; padding: 0; }
+  #graus ul li a { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; }
+  #graus ul li.active a { padding: 15px 0; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  #graus #selo { top: -40px; } }
+@media screen and (max-width: 680px) { #graus #selo { top: -200px; }
+  #topicos li { width: 100%; min-height: 0; margin: 0 0 40px; }
+  #video iframe { height: 320px; } }
+@media screen and (max-width: 460px) { #graus ul li { width: 100%; }
+  #graus #selo { top: -200px; }
+  #video h2 { font-size: 26px; font-size: 1.625rem; } }

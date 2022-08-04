@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Aachen';
+  src: url('AachenBold.eot?#iefix') format('embedded-opentype'),  url('AachenBold.woff') format('woff'), url('AachenBold.ttf')  format('truetype'), url('AachenBold.svg#AachenBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Akz';
+  src: url('AkzidenzGroteskBQ-Medium.eot?#iefix') format('embedded-opentype'),  url('AkzidenzGroteskBQ-Medium.otf')  format('opentype'),
+	     url('AkzidenzGroteskBQ-Medium.woff') format('woff'), url('AkzidenzGroteskBQ-Medium.ttf')  format('truetype'), url('AkzidenzGroteskBQ-Medium.svg#AkzidenzGroteskBQ-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

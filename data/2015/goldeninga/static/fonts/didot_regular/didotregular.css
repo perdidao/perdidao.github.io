@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Didot Roman';
+    src: url('didotregular.eot');
+    src: url('didotregular.eot') format('embedded-opentype'),
+         url('didotregular.woff2') format('woff2'),
+         url('didotregular.woff') format('woff'),
+         url('didotregular.ttf') format('truetype'),
+         url('didotregular.svg#DidotLTStdRoman') format('svg');
+}

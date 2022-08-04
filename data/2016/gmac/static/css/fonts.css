@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/DIN-Light.otf')  format('opentype'),
+	     url('../fonts/DIN-Light.woff') format('woff'), url('../fonts/DIN-Light.ttf')  format('truetype'), url('../fonts/DIN-Light.svg#DIN-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/DIN-Medium.woff') format('woff'), url('../fonts/DIN-Medium.ttf')  format('truetype'), url('../fonts/DIN-Medium.svg#DIN-Medium') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('../fonts/DIN-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/DIN-Bold.otf')  format('opentype'),
+	     url('../fonts/DIN-Bold.woff') format('woff'), url('../fonts/DIN-Bold.ttf')  format('truetype'), url('../fonts/DIN-Bold.svg#DIN-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro-Cond';
+  src: url('../fonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),  url('../fonts/MyriadPro-Cond.otf')  format('opentype'),
+	     url('../fonts/MyriadPro-Cond.woff') format('woff'), url('../fonts/MyriadPro-Cond.ttf')  format('truetype'), url('../fonts/MyriadPro-Cond.svg#MyriadPro-Cond') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro-Cond';
+  src: url('../fonts/MyriadPro-BoldCond.eot?#iefix') format('embedded-opentype'),  url('../fonts/MyriadPro-BoldCond.otf')  format('opentype'),
+	     url('../fonts/MyriadPro-BoldCond.woff') format('woff'), url('../fonts/MyriadPro-BoldCond.ttf')  format('truetype'), url('../fonts/MyriadPro-BoldCond.svg#MyriadPro-BoldCond') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

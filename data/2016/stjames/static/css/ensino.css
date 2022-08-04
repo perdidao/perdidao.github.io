@@ -1,0 +1,145 @@
+.center { width: 92%; max-width: 1140px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+#header { min-height: 570px; background-image: url(../img/topo-ensino.jpg); position: relative; }
+
+#graus { position: absolute; bottom: 0; left: 0; width: 100%; }
+
+#graus ul { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#graus ul li { float: left; width: 25%; text-align: center; padding-top: 19px; }
+
+#graus ul li.active { padding-top: 0; }
+
+#graus ul li a { display: block; padding: 15px 0; color: #FFF; text-transform: uppercase; font-style: italic; font-size: 20px; font-size: 1.25rem; }
+
+#graus ul li a span { display: none; font-size: 14px; font-size: 0.875rem; margin-top: 5px; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+
+#graus ul li.active a span { display: block; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+
+#graus ul li a.ei { background-color: #F4B10A; }
+
+#graus ul li a.f1 { background-color: #B9CF2A; }
+
+#graus ul li a.f2 { background-color: #A5C538; }
+
+#graus ul li a.em { background-color: #0380BD; }
+
+#graus #selo { width: 166px; height: 166px; background: url(../img/selo.png) no-repeat center center; position: absolute; left: 50%; margin-left: -83px; top: -40px; }
+
+#content { padding: 80px 0 0; }
+
+#content .center h2 { text-align: center; font-size: 39px; font-size: 2.4375rem; text-transform: uppercase; margin-bottom: 45px; }
+
+#content .center p { line-height: 25px; margin-bottom: 20px; }
+
+#calendario { width: 100%; padding: 180px 0; margin: 70px 0; background: transparent; }
+
+#calendario .wrapper { max-width: 440px; margin: 0 auto; text-align: center; color: #FFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#calendario h2 { font-size: 39px; font-size: 2.4375rem; line-height: 1.2em; text-transform: uppercase; margin-bottom: 70px; }
+
+#calendario a { display: block; padding: 30px 0; border: 2px solid #FFF; font-size: 20px; font-size: 1.25rem; font-weight: 400; text-transform: uppercase; max-width: 390px; margin: 0 auto; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; -webkit-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out; }
+
+#calendario a:hover { background-color: #FFF; color: #5D5D5D; }
+
+#oficinas { overflow: hidden; }
+
+#oficinas li { float: left; width: 33.33%; margin-bottom: 80px; text-align: center; }
+
+#oficinas li a { display: block; padding-top: 91px; text-transform: uppercase; font-size: 22px; font-size: 1.375rem; font-weight: 400; background: no-repeat center top; }
+
+#oficinas li a.robotica { background-image: url(../img/ico-robotica.png); }
+
+#oficinas li a.patinacao { background-image: url(../img/ico-patinacao.png); }
+
+#oficinas li a.ballet { background-image: url(../img/ico-ballet.png); }
+
+#oficinas li a.volei { background-image: url(../img/ico-volei.png); }
+
+#oficinas li a.basquete { background-image: url(../img/ico-basquete.png); }
+
+#oficinas li a.danca { background-image: url(../img/ico-danca.png); }
+
+#oficinas li a.futsal { background-image: url(../img/ico-futsal.png); }
+
+#oficinas li a.oficina { background-image: url(../img/ico-oficinas.png); }
+
+#materiais { width: 100%; padding: 180px 0; background: transparent; }
+
+#materiais .wrapper { max-width: 640px; margin: 0 auto; text-align: center; color: #FFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#materiais h2 { font-size: 39px; font-size: 2.4375rem; line-height: 1.2em; text-transform: uppercase; margin-bottom: 10px; }
+
+#materiais p { font-size: 25px; font-size: 1.5625rem; text-transform: uppercase; margin-bottom: 40px; }
+
+#materiais a { display: block; padding: 30px 0; border: 2px solid #FFF; font-size: 20px; font-size: 1.25rem; font-weight: 400; text-transform: uppercase; max-width: 390px; margin: 0 auto; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; -webkit-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out; }
+
+#materiais a:hover { background-color: #FFF; color: #5D5D5D; }
+
+#overlay { display: none; position: fixed; z-index: 12; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.7); }
+
+#overlay .wrapper { width: 100%; max-width: 1000px; padding: 40px 100px 100px; position: fixed; top: 50%; left: 50%; background-color: #FFF; -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+#fechar { display: block; width: 23px; height: 21px; background: url(../img/ico-fechar.png) no-repeat center center; position: absolute; top: 10px; right: 10px; }
+
+#overlay .inner { overflow: hidden; }
+
+#overlay .inner h2 { width: 100%; padding-top: 100px; background: no-repeat center top; margin-bottom: 50px; text-align: center; text-transform: uppercase; font-weight: 400; font-size: 22px; font-size: 1.375rem; }
+
+#overlay .inner h2.robotica { background-image: url(../img/ico-robotica.png); }
+
+#overlay .inner h2.patinacao { background-image: url(../img/ico-patinacao.png); }
+
+#overlay .inner h2.ballet { background-image: url(../img/ico-ballet.png); }
+
+#overlay .inner h2.volei { background-image: url(../img/ico-volei.png); }
+
+#overlay .inner h2.basquete { background-image: url(../img/ico-basquete.png); }
+
+#overlay .inner h2.danca { background-image: url(../img/ico-danca.png); }
+
+#overlay .inner h2.futsal { background-image: url(../img/ico-futsal.png); }
+
+#overlay .inner h2.oficina { background-image: url(../img/ico-oficinas.png); }
+
+#overlay .inner .coll { float: left; width: 38%; }
+
+#overlay .inner .coll .charts { overflow: hidden; margin-bottom: 30px; }
+
+#overlay .inner .coll .charts .col1 { float: left; width: 50%; min-height: 100px; }
+
+#overlay .inner .coll .charts .col2 { float: right; width: 50%; border-left: 2px solid #CCC; padding-left: 20px; min-height: 100px; }
+
+#overlay .inner .coll .charts h3 { text-transform: uppercase; line-height: 25px; }
+
+#overlay .inner .coll .charts p { line-height: 25px; }
+
+#overlay .inner .coll > p { line-height: 35px; }
+
+#overlay .inner .colr { float: right; width: 50%; }
+
+#overlay .inner .colr img { display: block; width: 100%; }
+
+@media screen and (max-width: 1024px) { #graus #selo { top: -140px; } }
+@media screen and (max-width: 860px) { #graus ul li { width: 50%; padding: 0; }
+  #graus ul li.active a { padding: 15px 0; }
+  #graus #selo { top: -40px; }
+  #graus ul li a { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; }
+  #graus ul li a span { display: block; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  #graus ul li.active a { filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+  #overlay .wrapper { padding: 40px; top: 0; left: 0; -moz-transform: translate(0); -ms-transform: translate(0); -webkit-transform: translate(0); transform: translate(0); }
+  #overlay .inner .coll { width: 50%; }
+  #overlay .inner .colr { width: 40%; } }
+@media screen and (max-width: 680px) { #graus #selo { top: -200px; }
+  #oficinas li { width: 50%; }
+  #overlay .inner .coll { width: 100%; margin-bottom: 40px; }
+  #overlay .inner .colr { width: 100%; } }
+@media screen and (max-width: 460px) { #graus ul li { width: 100%; }
+  #graus #selo { top: -200px; }
+  #oficinas li { width: 100%; margin-bottom: 40px; } }

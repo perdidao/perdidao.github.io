@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Book.eot?#iefix') format('embedded-opentype'),  url('Gotham-Book.otf')  format('opentype'),
+	     url('Gotham-Book.woff') format('woff'), url('Gotham-Book.ttf')  format('truetype'), url('Gotham-Book.svg#Gotham-Book') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),  url('Gotham-Bold.otf')  format('opentype'),
+	     url('Gotham-Bold.woff') format('woff'), url('Gotham-Bold.ttf')  format('truetype'), url('Gotham-Bold.svg#Gotham-Bold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Ultra.eot?#iefix') format('embedded-opentype'),  url('Gotham-Ultra.otf')  format('opentype'),
+	     url('Gotham-Ultra.woff') format('woff'), url('Gotham-Ultra.ttf')  format('truetype'), url('Gotham-Ultra.svg#Gotham-Ultra') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}

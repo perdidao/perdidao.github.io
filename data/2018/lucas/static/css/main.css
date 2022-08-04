@@ -1,0 +1,63 @@
+/* Reset Global */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+@font-face { font-family: 'Apercu'; src: url("../fonts/Apercu-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Apercu-Medium.otf") format("opentype"), url("../fonts/Apercu-Medium.woff") format("woff"), url("../fonts/Apercu-Medium.ttf") format("truetype"), url("../fonts/Apercu-Medium.svg#Apercu-Medium") format("svg"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Apercu'; src: url("../fonts/Apercu-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Apercu-Bold.otf") format("opentype"), url("../fonts/Apercu-Bold.woff") format("woff"), url("../fonts/Apercu-Bold.ttf") format("truetype"), url("../fonts/Apercu-Bold.svg#Apercu-Bold") format("svg"); font-weight: 600; font-style: normal; }
+/* Estilos globais */
+body { font: 400 18px "Apercu", Helvetica, Arial, sans-serif; color: #3b464e; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+::-moz-selection { color: #FFF; background-color: #03e4e4; }
+
+::selection { color: #FFF; background-color: #03e4e4; }
+
+.el { display: block; }
+
+#container { width: 100vw; height: 100vh; position: relative; }
+#container #logo { position: fixed; top: 15%; left: 15%; z-index: 3; width: 80px; pointer-events: none; }
+#container #logo svg { fill: #03e4e4; }
+#container #about { position: fixed; bottom: 15%; left: 15%; z-index: 2; max-width: 400px; pointer-events: none; }
+#container #about h1 { font-size: 40px; font-weight: 600; line-height: 1.4; letter-spacing: -0.04em; margin-bottom: 30px; }
+#container #about p { line-height: 1.5; }
+#container #contact { position: fixed; bottom: 15%; right: 15%; z-index: 4; text-align: right; line-height: 1.5; cursor: help; }
+#container #contact .linkedin { text-decoration: none; color: inherit; transition: color 300ms ease-in-out; }
+#container #contact .linkedin:hover { color: #03e4e4; }
+#container #aur { position: fixed; top: 0; left: 0; z-index: 1; width: 38.54vw; height: 100vh; background-color: #f6f9fa; pointer-events: none; }
+#container #shapes .shape { position: absolute; z-index: 1; pointer-events: none; }
+#container #shapes .shape.c { width: 62px; top: 15%; right: 15%; transform: translateX(72px); }
+#container #shapes .shape.c svg { fill: #f6f9fa; }
+#container #shapes .shape.l { width: 47px; top: 15%; right: 15%; transform: translateY(56px); }
+#container #shapes .shape.l svg { fill: #03e4e4; }
+#container #shapes .shape.v { width: 66px; bottom: 15%; right: 15%; transform: translateX(86px); }
+#container #shapes .shape.v svg { fill: #f6f9fa; }
+#container #shapes .shape.u { width: 73px; bottom: 15%; right: 15%; transform: translateY(56px); }
+#container #shapes .shape.u svg { fill: #03e4e4; }
+#container #shapes .shape.o { width: 73px; top: 30%; right: 38.54%; }
+#container #shapes .shape.o svg { fill: #f6f9fa; }
+#container #shapes .shape.a { width: 73px; top: 30%; right: 38.54%; transform: translate(100%, 100%); }
+#container #shapes .shape.a svg { fill: #03e4e4; }
+#container #shapes .shape.w { width: 234px; bottom: 30%; right: 38.54%; transform: translateY(-50%); }
+#container #shapes .shape.w svg { fill: #f6f9fa; }
+
+@media screen and (max-width: 860px) { #container { width: 100%; height: auto; }
+  #container #logo { position: static; margin: 50px 0 50px 10%; }
+  #container #about { position: static; margin: 0 0 50px 10%; width: 80%; }
+  #container #about h1 { font-size: 30px; }
+  #container #about p { font-size: 16px; line-height: 1.5; }
+  #container #contact { position: static; margin: 0 0 50px 10%; width: 80%; text-align: left; font-size: 16px; }
+  #container #aur { display: none; }
+  #container #shapes .shape { display: none; } }

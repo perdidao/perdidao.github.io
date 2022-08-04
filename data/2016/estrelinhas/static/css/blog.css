@@ -1,0 +1,214 @@
+@import url(../fonts/noto.css);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.center { width: 92%; max-width: 1000px; margin: 0 auto; position: relative; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; outline: 0; }
+
+a { color: inherit; text-decoration: none; }
+
+body { font-family: "Noto Sans", Helvetica, Arial, sans-serif; font-size: 16px; font-size: 1rem; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #FFF; }
+
+::-moz-selection { color: #FFF; background-color: #3BB8DE; }
+
+::selection { color: #FFF; background-color: #3BB8DE; }
+
+#header { width: 100%; height: 290px; background: url(../img/bkg-topo-blog.jpg) repeat center top; border-bottom: 10px solid #3BB8DE; }
+
+#header .center { height: 290px; }
+
+#logo { display: block; position: absolute; z-index: 1; bottom: -100px; left: 0; width: 195px; height: 185px; background: url(../img/logo-blog.png) no-repeat center center; }
+
+#header h1 { float: left; font-family: "Pacifico", serif; font-size: 70px; font-size: 4.375rem; margin: 170px 0 0 210px; }
+
+#header .voltar { display: block; float: right; padding: 10px; border: 2px solid #FFF; margin-top: 60px; font-size: 20px; font-size: 1.25rem; font-weight: 600; text-transform: uppercase; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#header .voltar:hover { background-color: #FFF; color: #094F79; }
+
+#categorias { width: 100%; text-align: center; margin: 30px 0 130px; }
+
+#categorias li { display: inline-block; margin: 0 10px; color: #EF404D; text-transform: uppercase; font-size: 18px; font-size: 1.125rem; font-weight: 600; }
+
+#categorias li a { -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#categorias li a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; }
+
+#col-left { float: left; width: 66%; }
+
+#posts li { padding-bottom: 20px; border-bottom: 1px solid #CCC; margin-bottom: 30px; }
+
+#posts li h2 { font-size: 30px; font-size: 1.875rem; font-weight: 600; line-height: 1.2em; text-transform: uppercase; color: #094F79; }
+
+#posts li p.data { font-size: 15px; font-size: 0.9375rem; font-style: italic; text-transform: uppercase; color: #5B5B5B; margin: 10px 0; }
+
+#posts li img { display: block; width: 100%; margin-bottom: 15px; }
+
+#posts li p { font-size: 18px; font-size: 1.125rem; font-style: italic; line-height: 1.2em; color: #5B5B5B; margin-bottom: 20px; }
+
+#posts li .leia-mais { display: block; float: right; padding: 8px 30px 10px; background-color: #EF404D; font-weight: 600; font-style: italic; }
+
+.fb-comments, .fb-comments span, .fb-comments iframe { width: 100% !important; }
+
+#continue-lendo { display: block; margin: 30px 0 70px; text-align: center; color: #5B5B5B; text-transform: uppercase; font-size: 20px; font-size: 1.25rem; font-style: italic; padding-bottom: 30px; background: url(../img/arw-down.png) no-repeat center bottom; }
+
+#col-right { float: left; width: 32%; margin-left: 2%; }
+
+#backup { font-family: "Noto Sans", Helvetica, Arial, sans-serif; margin: 30px 0; }
+
+#backup h2 { display: block; width: 100%; padding: 15px; border: 1px solid #EF404D; color: #EF404D; text-transform: uppercase; font-size: 20px; font-size: 1.25rem; text-align: center; margin-bottom: 10px; }
+
+#backup .btn-datas { display: block; width: 100%; padding: 15px; border: 1px solid #EF404D; color: #EF404D; text-transform: uppercase; font-size: 20px; font-size: 1.25rem; text-align: center; }
+
+#arquivo { display: none; width: 100%; }
+
+#arquivo li a { display: block; width: 100%; color: #EF404D; text-align: center; padding: 10px; border: 1px solid #EF404D; border-top: 0; text-transform: uppercase; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#arquivo li a:hover { background: #e4f0fc; }
+
+#newsletter { width: 100%; padding: 50px 0; background: url(../img/bkg-newsletter.png) repeat center center; }
+
+#newsletter .f-left { float: left; margin-left: 8%; font-weight: 600; }
+
+#newsletter .f-left h2 { font-size: 40px; font-size: 2.5rem; text-transform: uppercase; }
+
+#newsletter .f-left p { font-size: 22px; font-size: 1.375rem; font-style: italic; }
+
+#newsletter .f-right { float: right; width: 50%; margin-top: 10px; }
+
+#newsletter .f-right input { display: block; float: left; width: 72%; height: 45px; border: 2px solid #CCC; background-color: #FFF; font-weight: 600; font-style: italic; font-size: 20px; font-size: 1.25rem; font-family: inherit; color: #5B5B5B; text-align: center; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#newsletter .f-right #assinar { display: block; float: left; width: 28%; height: 45px; border: 0; background-color: #094F79; font-family: "Noto Sans", Helvetica, Arial, sans-serif; font-size: 20px; font-size: 1.25rem; font-style: italic; font-weight: 600; color: #FFF; cursor: pointer; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#newsletter .f-right #assinar:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; }
+
+#contato { width: 100%; padding: 80px 0; background-color: #094F79; }
+
+#contato h2 { font-size: 37px; font-size: 2.3125rem; text-transform: uppercase; font-weight: 600; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #FFF; }
+
+#contato .f-left { float: left; width: 55%; }
+
+#contato .f-left input, #contato .f-left textarea { display: block; float: left; width: 100%; height: 40px; background: #FFF; border: 0; padding: 0 10px; color: #5B5B5B; font-family: "Noto Sans", Helvetica, Arial, sans-serif; font-size: 14px; font-size: 0.875rem; font-style: italic; margin-bottom: 10px; }
+
+#contato .f-left textarea { height: 260px; resize: none; padding: 5px 10px; }
+
+#contato .f-left input.mail { width: 60%; margin-right: 2%; }
+
+#contato .f-left input.tel { width: 38%; }
+
+#contato .f-left #enviar { display: block; width: 100%; height: 40px; background-color: #39CF32; border: 0; color: #FFF; font-family: "Noto Sans", Helvetica, Arial, sans-serif; font-weight: 600; font-size: 25px; font-size: 1.5625rem; font-style: italic; text-transform: uppercase; cursor: pointer; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#contato .f-left #enviar:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; }
+
+#contato .f-left p { font-size: 12px; font-size: 0.75rem; margin-top: 10px; }
+
+#contato .f-right { float: left; width: 33%; margin-left: 4%; line-height: 1.2em; }
+
+#contato .f-right h3 { font-size: 18px; font-size: 1.125rem; margin-bottom: 5px; }
+
+#contato .f-right p { font-size: 14px; font-size: 0.875rem; margin-bottom: 20px; }
+
+#contato .f-right p strong { font-size: 28px; font-size: 1.75rem; font-weight: 600; display: block; }
+
+#contato .f-right p strong span { font-size: 18px; font-size: 1.125rem; }
+
+#contato .f-right h4 { font-size: 18px; font-size: 1.125rem; font-style: italic; font-weight: 600; text-transform: uppercase; margin: 10px 0 15px; }
+
+#constelacao #logo { width: 240px; height: 310px; background-image: url(../img/logo-const.png); }
+
+#constelacao #header h1 { margin-left: 260px; }
+
+#constelacao .sobre { margin-top: 30px; max-width: 740px; float: right; color: #094F79; font-style: italic; }
+
+#constelacao .sobre p { margin-bottom: 20px; font-size: 18px; font-size: 1.125rem; line-height: 1.2em; }
+
+#constelacao .sobre p strong { font-weight: 600; }
+
+#constelacao #lista-const { color: #094F79; margin-top: 100px; }
+
+#constelacao #lista-const > li { margin-bottom: 80px; }
+
+#constelacao #lista-const .img { float: left; width: 45%; margin-right: 5%; border: 10px solid #E8F2F8; }
+
+#constelacao #lista-const .img img { display: block; width: 100%; }
+
+#constelacao #lista-const .texto { float: left; width: 50%; }
+
+#constelacao #lista-const .texto .title { float: left; margin-bottom: 25px; }
+
+#constelacao #lista-const .texto .title h2 { font-size: 30px; font-size: 1.875rem; font-weight: 600; color: #EF404D; }
+
+#constelacao #lista-const .texto .title .data { font-size: 15px; font-size: 0.9375rem; font-style: italic; color: #9B9B9B; margin-top: 15px; }
+
+#constelacao #lista-const .texto .social { float: right; text-align: center; margin-bottom: 25px; }
+
+#constelacao #lista-const .texto .social p { font-size: 14px; font-size: 0.875rem; text-transform: uppercase; font-weight: 600; }
+
+#constelacao #lista-const .texto .social ul { margin-top: 5px; }
+
+#constelacao #lista-const .texto .social ul li { display: inline-block; }
+
+#constelacao #lista-const .texto .social ul li a { display: block; width: 35px; height: 35px; background-repeat: no-repeat; background-position: center center; }
+
+#constelacao #lista-const .texto .social ul li a.ico-facebook { background-image: url(../img/ico-facebook-co.png); }
+
+#constelacao #lista-const .texto .social ul li a.ico-twitter { background-image: url(../img/ico-twitter-co.png); }
+
+#constelacao #lista-const .texto .social ul li a.ico-gplus { background-image: url(../img/ico-gplus-co.png); }
+
+#constelacao #lista-const .texto > p { font-size: 18px; font-size: 1.125rem; line-height: 1.2em; font-style: italic; margin-bottom: 20px; color: #5B5B5B; }
+
+#constelacao #lista-const .texto > p strong { font-weight: 600; color: #EF404D; }
+
+#navig { border-top: 1px solid #9B9B9B; padding-top: 30px; margin-bottom: 30px; color: #5B5B5B; text-align: center; }
+
+#navig li { display: inline-block; margin: 0 10%; }
+
+#navig li a { display: block; padding: 10px; font-style: italic; }
+
+#navig li a.prev { padding-left: 40px; background: url(../img/arw-prev.png) no-repeat left center; }
+
+#navig li a.next { padding-right: 40px; background: url(../img/arw-next.png) no-repeat right center; }
+
+@media screen and (max-width: 860px) { #logo { bottom: -20px; }
+  #newsletter .f-left { width: 100%; margin: 0 0 30px; text-align: center; }
+  #newsletter .f-right { width: 100%; }
+  #navig li { margin: 0 5%; } }
+@media screen and (max-width: 660px) { #header { height: 240px; }
+  #header .center { height: 240px; }
+  #logo { bottom: -60px; left: 0; width: 100%; }
+  #header h1 { margin: 40px 0 0; }
+  #header .voltar { display: none; }
+  #categorias { margin: 100px 0 50px; }
+  #col-left { width: 100%; margin: 0; }
+  #col-right { display: none; }
+  #contato .f-left { width: 100%; margin: 0 0 30px; }
+  #contato .f-right { width: 100%; margin: 0; text-align: center; }
+  #constelacao .sobre { margin: 100px 0 0; }
+  #constelacao #lista-const { margin-top: 40px; }
+  #constelacao #lista-const .img { width: 100%; margin: 0 0 20px; }
+  #constelacao #lista-const .texto { width: 100%; }
+  #constelacao #logo { position: static; float: none; width: 240px; margin: 0 auto; }
+  #constelacao #header h1 { display: none; } }
+@media screen and (max-width: 460px) { #header { margin-bottom: 100px; }
+  #header h1 { margin: 20px 0 0; }
+  #categorias { display: none; }
+  #newsletter .f-right input, #newsletter .f-right #assinar { width: 100%; }
+  #contato .f-left input.mail, #contato .f-left input.tel { width: 100%; margin: 0 0 10px; } }

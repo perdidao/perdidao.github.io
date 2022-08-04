@@ -1,0 +1,76 @@
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1260px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+#linha-topo { width: 83%; height: 6px; background-color: #929497; }
+
+#banner { width: 100%; height: 380px; background: url(../img/banner-fale-conosco.jpg) no-repeat center top; text-align: center; padding-top: 170px; }
+
+#banner h1 { color: #FFF; font-size: 90px; font-size: 5.625rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; }
+
+#conteudo { width: 100%; min-height: 1000px; padding: 90px 0; background: url(../img/bkg-contato.jpg) repeat-y center top; }
+
+#conteudo .center { width: 880px; }
+
+.form { width: 100%; padding: 90px 100px 110px; background-color: #FFF; }
+
+.form.f-upper { padding-bottom: 10px; }
+
+.form h2 { font-size: 32px; font-size: 2rem; margin-bottom: 40px; }
+
+.form .col-left { float: left; width: 45%; margin-right: 10%; }
+
+.form .col-right { float: left; width: 45%; }
+
+.form label { display: block; float: left; width: 100%; font-size: 17px; font-size: 1.0625rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; margin-bottom: 20px; }
+
+.form input, .form textarea { display: block; width: 100%; padding: 5px 10px; margin-top: 10px; background-color: #d0d2d3; border: 0; height: 40px; font-size: 17px; font-size: 1.0625rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; color: #404041; }
+
+#enviar { display: block; float: right; padding: 10px 30px; margin-top: 20px; border: 3px solid #1B3280; color: #1B3280; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 18px; font-size: 1.125rem; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; text-transform: none; font-weight: 600; }
+
+.form textarea { height: 300px; resize: none; }
+
+#cidade { width: 72%; margin-right: 5%; }
+
+#estado { width: 23%; }
+
+.form p { clear: right; float: right; font-size: 12px; font-size: 0.75rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; margin-top: 10px; }
+
+#tabs { background-color: #FFF; }
+
+#tabs li { float: left; width: 33.3%; }
+
+#tabs li a { display: block; width: 100%; height: 65px; line-height: 65px; text-align: center; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 20px; font-size: 1.25rem; }
+
+#tabs li a.consumidor { background-color: #FFF; }
+
+#tabs li a.revendedor { background-color: #a6a8ab; }
+
+#tabs li a.fornecedor { background-color: #d0d2d3; }
+
+#duvida { padding: 130px 0; background-color: #e5e7ea; }
+
+#duvida h2 { text-align: center; margin-bottom: 30px; }
+
+#duvida p { max-width: 64%; margin: 0 auto; font-size: 16px; font-size: 1rem; line-height: 28px; text-align: justify; }
+
+#duvida p strong { font-family: "Avenir Roman", Helvetica, Arial, sans-serif; font-weight: 600; }
+
+.btn-duvida { display: block; width: 400px; height: 50px; margin: 40px auto 0; border: 3px solid #1B3280; color: #1B3280; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 27px; font-size: 1.6875rem; text-align: center; line-height: 46px; }
+
+@media screen and (max-width: 1260px) { .center { width: 96%; } }
+@media screen and (max-width: 880px) { #conteudo .center { width: 96%; }
+  .form h2 { text-align: center; } }
+@media screen and (max-width: 740px) { .form .col-left, .form .col-right { float: left; width: 100%; margin-right: 0; } }
+@media screen and (max-width: 640px) { .form { width: 100%; padding: 90px 50px 110px; background-color: #FFF; }
+  #enviar { width: 100%; } }
+@media screen and (max-width: 430px) { .btn-duvida { width: 96%; height: auto; padding: 5px 20px; margin: 40px auto 0; line-height: 1.3em; }
+  #duvida p { max-width: 96%; } }

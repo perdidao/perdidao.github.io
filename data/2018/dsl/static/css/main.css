@@ -1,0 +1,115 @@
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+* { box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+/* Estilos globais */
+body { background-color: #454442; color: #FFF; font: 400 18px "Peugeot", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+::-moz-selection { color: #FFF; background-color: #C20E1A; }
+
+::selection { color: #FFF; background-color: #C20E1A; }
+
+#header { position: fixed; top: 0; left: 0; z-index: 10; width: 100%; padding: 20px 0; background-color: #FFF; }
+#header .center { overflow: hidden; width: 90%; max-width: 1180px; margin: 0 auto; }
+#header .center #logo { float: left; width: 150px; }
+#header .center #logo img { display: block; width: 100%; }
+#header .center #menu { float: right; font-size: 22px; color: #A4A4A4; margin-top: 15px; }
+#header .center #menu a { display: inline-block; text-transform: uppercase; transition: all 200ms ease-in-out; }
+#header .center #menu a:hover { color: #C20E1A; }
+#header .center #menu span { display: inline-block; margin: 0 10px; }
+
+#capa { width: 100%; height: 1000px; background: url(../img/capa.jpg) no-repeat center top; background-size: cover; position: relative; }
+#capa h1 { position: absolute; top: 420px; left: 47%; text-transform: uppercase; font-weight: 700; font-size: 32px; }
+
+#sobre { width: 100%; padding: 200px 0 150px; background: url(../img/bkg-sobre.jpg) repeat center center; }
+#sobre .center { width: 90%; max-width: 840px; margin: 0 auto; text-align: center; }
+#sobre .center .logo-alt { margin-bottom: 35px; }
+#sobre .center .logo-alt img { display: inline-block; max-width: 100%; }
+#sobre .center p { line-height: 1.3; margin-bottom: 20px; }
+#sobre .center p strong { font-weight: 700; }
+
+#solucoes { width: 100%; min-height: 1080px; padding-top: 220px; background: url(../img/bkg-solucoes.jpg) no-repeat center center; }
+#solucoes .center { width: 90%; max-width: 660px; margin: 0 auto; }
+#solucoes .center h2 { font-size: 28px; text-transform: uppercase; margin-bottom: 20px; }
+#solucoes .center ul { line-height: 1.3; }
+
+#obras { background: url(../img/bkg-sobre.jpg) repeat center center; padding: 250px 0; }
+#obras ul { padding: 40px 0; background-color: rgba(0, 0, 0, 0.3); position: relative; }
+#obras ul img { filter: grayscale(1); transition: all 500ms ease-in-out; }
+#obras ul .center img { filter: grayscale(0); }
+#obras .owl-prev, #obras .owl-next { position: absolute; top: 50%; -ms-transform: translateY(-50%); transform: translateY(-50%); width: 84px; height: 99px; background: no-repeat center center; transition: all 300ms ease-in-out; text-indent: -9999em; overflow: hidden; }
+#obras .owl-prev:hover, #obras .owl-next:hover { opacity: 0.6; }
+#obras .owl-prev { left: 25%; background-image: url(../img/arw-prev.png); }
+#obras .owl-next { right: 25%; background-image: url(../img/arw-next.png); }
+
+#clientes { background: url(../img/bkg-sobre.jpg) repeat center center; padding: 200px 0 150px; }
+#clientes .inner { width: 90%; max-width: 1280px; padding: 40px 40px 0; margin: 0 auto; background-color: rgba(0, 0, 0, 0.3); border-radius: 20px; text-align: center; }
+#clientes .inner h2 { text-transform: uppercase; font-size: 40px; margin-bottom: 50px; }
+#clientes .inner ul li { display: inline-block; width: 32%; min-height: 160px; }
+#clientes .inner ul li img { display: inline-block; max-width: 90%; vertical-align: middle; }
+
+#contato { background: url(../img/bkg-sobre.jpg) repeat center center; padding: 200px 0 100px; }
+#contato .inner { width: 90%; max-width: 720px; margin: 0 auto; overflow: hidden; }
+#contato .inner h2 { font-size: 36px; font-weight: 700; text-transform: uppercase; width: 72%; margin: 0 0 60px 28%; }
+#contato .inner label { float: left; width: 22%; margin-right: 6%; font-size: 20px; line-height: 55px; text-transform: uppercase; text-align: right; }
+#contato .inner input, #contato .inner textarea { display: block; float: left; width: 72%; height: 55px; background-color: #FFF; border: 0; border-radius: 10px; margin-bottom: 20px; font: 400 18px "Peugeot", Helvetica, Arial, sans-serif; color: #454442; }
+#contato .inner textarea { height: 130px; }
+#contato .inner button { clear: both; display: block; float: right; width: 100%; max-width: 300px; height: 55px; border-radius: 10px; border: 0; background-color: #C20E1A; font: 400 18px "Peugeot", Helvetica, Arial, sans-serif; text-transform: uppercase; color: #FFF; cursor: pointer; transition: all 300ms ease-in-out; }
+#contato .inner button:hover { opacity: 0.6; }
+
+#footer { width: 100%; padding: 180px 0 60px; background: url(../img/bkg-rodape.jpg) no-repeat center center; }
+#footer .center { width: 90%; max-width: 1180px; margin: 0 auto; overflow: hidden; font-size: 16px; vertical-align: bottom; }
+#footer .center .copy { float: left; text-transform: uppercase; }
+#footer .center .info { float: right; font-weight: 700; text-align: right; }
+#footer .center .info strong { font-size: 40px; }
+#footer .center .info a { transition: all 200ms ease-in-out; }
+#footer .center .info a:hover { color: #C20E1A; }
+
+@media screen and (max-width: 1240px) { #header { padding: 20px 0; }
+  #header .center #logo { width: 180px; }
+  #header .center #logo img { display: block; max-width: 100%; }
+  #header .center #menu { font-size: 20px; margin-top: 25px; }
+  #capa { height: 640px; }
+  #capa h1 { width: 90%; top: auto; bottom: 20px; left: 5%; font-size: 28px; text-align: center; } }
+@media screen and (max-width: 860px) { body { font-size: 18px; }
+  #sobre { padding: 100px 0; }
+  #solucoes { padding: 100px 0; background-position: center top; height: auto; min-height: 0; }
+  #obras { padding: 40px 0; }
+  #footer { padding: 130px 0 20px; background-position: center top; text-align: center; }
+  #footer .center .copy { float: none; margin-bottom: 20px; font-size: 14px; }
+  #footer .center .info { float: none; font-size: 14px; text-align: center; }
+  #footer .center .info strong { font-size: 18px; } }
+@media screen and (max-width: 680px) { #header { position: static; }
+  #header .center #logo { float: none; margin: 0 auto; }
+  #header .center #menu { display: none; }
+  #capa { height: 400px; }
+  #capa h1 { width: 90%; top: 50px; bottom: auto; }
+  #clientes { padding: 100px 0; }
+  #clientes .inner h2 { font-size: 40px; }
+  #clientes .inner ul li { width: 45%; }
+  #contato { padding: 50px 0; }
+  #contato .inner h2 { font-size: 40px; width: 100%; margin: 0 0 40px; }
+  #contato .inner label { float: none; width: 100%; margin-right: 0; font-size: 18px; line-height: 1.3; margin-bottom: 5px; text-align: left; }
+  #contato .inner input, #contato .inner textarea { float: none; width: 100%; height: 40px; padding: 0 10px; font-size: 18px; }
+  #contato .inner textarea { height: 140px; resize: none; }
+  #contato .inner button { float: none; width: 100%; max-width: 100%; } }
+@media screen and (max-width: 420px) { #clientes { padding: 50px 0; }
+  #clientes .inner { padding: 0; background: transparent; }
+  #clientes .inner ul li { display: block; min-height: 0; margin-bottom: 40px; width: 100%; }
+  #clientes .inner ul li img { display: inline-block; max-width: 100%; } }

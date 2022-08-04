@@ -1,0 +1,77 @@
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("brandon.css");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+body { font-family: "Montserrat", Helvetica, Arial, sans-serif; font-weight: 400; color: #47525D; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+::-moz-selection { color: #FFF; background-color: #7071E1; }
+
+::selection { color: #FFF; background-color: #7071E1; }
+
+#header { position: fixed; z-index: 1; top: 60px; left: 3%; width: 47%; }
+#header h1 { font-size: 36px; font-size: 2.25rem; line-height: 42px; font-weight: 700; text-transform: uppercase; max-width: 570px; margin-top: 70px; }
+#header h2 { font-family: "Brandon Medium", Helvetica, Arial, sans-serif; font-size: 20px; font-size: 1.25rem; line-height: 29px; text-transform: uppercase; margin-top: 30px; }
+#header #btn-work { display: inline-block; width: 225px; height: 50px; margin-top: 40px; background-color: #7071E1; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; font-size: 18px; font-size: 1.125rem; line-height: 50px; text-transform: uppercase; text-align: center; color: #FFF; }
+
+#projects { position: fixed; top: 0; right: 0; z-index: 2; width: 50%; height: 100%; border-left: 1px solid #7071E1; background-color: #FFF; }
+#projects #project-list { position: relative; top: 0; left: 0; width: 100%; height: 100%; }
+#projects #project-list li { text-align: center; position: relative; width: 100%; height: 100%; padding: 0; }
+#projects #project-list li .about { position: absolute; z-index: 2; top: 20px; left: 20px; text-align: left; }
+#projects #project-list li .about .icon { float: left; font-size: 8px; font-size: 0.5rem; font-weight: 700; text-transform: uppercase; color: #CDCDCD; text-align: center; }
+#projects #project-list li .about .icon img { display: block; margin-bottom: 5px; }
+#projects #project-list li .about .text { float: left; margin-left: 20px; }
+#projects #project-list li .about h2 { font-size: 16px; font-size: 1rem; font-weight: 700; color: #313030; }
+#projects #project-list li .about p { max-width: 210px; margin-top: 5px; font-size: 14px; font-size: 0.875rem; font-family: "Brandon Regular", Helvetica, Arial, sans-serif; }
+#projects #project-list li > img { display: inline-block; max-width: 80%; position: relative; top: 50%; -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+#projects #project-list .rsNav.rsBullets { position: absolute; top: 50%; left: -8px; -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+#projects #project-list .rsNav.rsBullets .rsBullet { width: 15px; height: 15px; margin: 20px 0; background-color: #FFF; border: 1px solid #7071E1; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; cursor: pointer; }
+#projects #project-list .rsNav.rsBullets .rsBullet.rsNavSelected { background-color: #7071E1; }
+#projects #project-list .rsArrow { width: 30px; height: 30px; position: absolute; left: 50%; -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -webkit-transform: translateX(-50%); transform: translateX(-50%); background-repeat: no-repeat; background-position: center center; }
+#projects #project-list .rsArrow.rsArrowLeft { top: 60px; background-image: url(../img/arw-up.svg); }
+#projects #project-list .rsArrow.rsArrowRight { bottom: 60px; background-image: url(../img/arw-down.svg); }
+
+#footer { position: fixed; z-index: 1; left: 3%; bottom: 50px; width: 42%; font-size: 12px; font-size: 0.75rem; }
+#footer #social p { float: left; margin: 2px 5px 0 0; }
+#footer #social a { float: left; margin-left: 10px; }
+#footer #copyrights { float: right; color: #CDCDCD; }
+
+@media screen and (max-width: 1240px) { #header { width: 42%; }
+  #header h1 { font-size: 24px; font-size: 1.5rem; line-height: 31px; }
+  #header h2 { font-size: 14px; font-size: 0.875rem; margin-top: 20px; }
+  #projects { width: 55%; } }
+@media screen and (max-width: 1024px) { #header { position: static; width: 100%; text-align: center; padding-bottom: 120px; border-bottom: 1px solid #7071E1; }
+  #header #logo { margin-top: 100px; }
+  #header h1 { font-size: 26px; font-size: 1.625rem; max-width: 100%; margin-top: 50px; }
+  #header h2 { font-size: 18px; font-size: 1.125rem; margin-top: 5px; }
+  #projects { position: static; width: 100%; padding-bottom: 40px; }
+  #projects #project-list li { min-height: 0; }
+  #projects #project-list li .about { position: static; min-height: 60px; margin: 40px 20px 30px; }
+  #projects #project-list li .about .icon { float: right; }
+  #projects #project-list li .about .text { float: left; margin-left: 0; }
+  #projects #project-list li img { position: static; -moz-transform: translateY(0); -ms-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0); }
+  #footer { text-align: center; position: static; width: 100%; padding: 30px 0; margin: 0 auto; border-top: 1px solid #7071E1; }
+  #footer #social { width: 100%; }
+  #footer #social p { float: none; display: inline-block; margin: 0; }
+  #footer #social a { float: none; }
+  #footer #copyrights { float: none; margin-top: 10px; } }

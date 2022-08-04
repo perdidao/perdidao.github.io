@@ -1,0 +1,55 @@
+@import url("../fonts/didot_italic/didotitalic.css");
+@import url("../fonts/didot_regular/didotregular.css");
+@import url("../fonts/didot_headline/didotheadline.css");
+@import url("../fonts/futura_book/futurabook.css");
+@import url("../fonts/futura_book_italic/futurabookitalic.css");
+@import url("../fonts/futura_light/futuralight.css");
+@import url("../fonts/futura_light_italic/futuralightitalic.css");
+@import url("../fonts/futura_medium/futuramedium.css");
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1240px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+#banner { width: 100%; height: 620px; background: url(../img/bkg-banner-evento.jpg) no-repeat center top; }
+
+#btn-voltar { display: block; width: 80px; height: 50px; color: #FFF; font-size: 18px; font-size: 1.125rem; line-height: 50px; font-family: "Futura Book Italic", Futura, Trebuchet MS, Arial, sans-serif; overflow: hidden; padding-left: 80px; background: #1D334D url(../img/ico-voltar.png) no-repeat 33px center; -moz-border-radius: 0 25px 25px 0; -webkit-border-radius: 0; border-radius: 0 25px 25px 0; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; margin-top: 60px; }
+
+#btn-voltar:hover { width: 150px; padding-left: 60px; }
+
+h2.titulo { display: block; width: 100%; text-align: center; font-size: 60px; font-size: 3.75rem; font-family: "Didot Roman", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; line-height: 1.3em; margin: 0 0 60px; }
+
+.container { max-width: 1260px; margin: 0 auto; }
+
+.container .col-left { float: left; width: 49%; }
+
+.container .col-left p { font-size: 20px; font-size: 1.25rem; line-height: 30px; color: #777; margin-bottom: 40px; }
+
+.container .col-right { float: left; width: 35%; margin-left: 16%; }
+
+.container .col-right h3 { font-size: 35px; font-size: 2.1875rem; font-family: "Didot Headline", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; margin-bottom: 50px; color: #1D334D; }
+
+.container .col-right .detalhes { color: #777; font-family: "Futura Book", Futura, Trebuchet MS, Arial, sans-serif; }
+
+.container .col-right .detalhes li { display: block; float: left; width: 50%; padding-left: 15px; background: url(../img/bullet.png) no-repeat left center; margin-bottom: 20px; }
+
+#reservar { display: block; width: 210px; height: 50px; border: 1px solid #1D334D; margin: 20px auto 0; text-align: center; line-height: 48px; font-family: "Futura Book Italic", Futura, Trebuchet MS, Arial, sans-serif; color: #1D334D; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#reservar:hover { background-color: #1D334D; color: #FFF; }
+
+#foto1 { float: left; width: 49%; margin-right: 2%; }
+
+#foto2 { float: left; width: 49%; }
+
+#foto3 { width: 100%; margin-top: 25px; }
+
+#foto1 img, #foto2 img, #foto3 img { display: block; width: 100%; }
+
+@media screen and (max-width: 1000px) { .container .col-left, .container .col-right { width: 80%; margin: 0 10% 40px; } }

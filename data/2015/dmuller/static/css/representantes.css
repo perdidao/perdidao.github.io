@@ -1,0 +1,75 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { max-width: 1260px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+#header { border-bottom: 10px solid #034B9C; }
+
+.representantes-wrapper { position: relative; }
+
+#representantes { background: url(../img/bkg-representantes-pag.jpg) repeat-x center top; padding-top: 115px; height: 530px; }
+
+#representantes .prancheta { width: 150px; height: 140px; background: url(../img/ico-representantes.png) no-repeat center center; margin: 0 auto; }
+
+#representantes h2 { display: block; font-size: 40px; font-size: 2.5rem; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 600; color: #FFF; max-width: 350px; text-align: center; margin: 25px auto; padding-bottom: 30px; border-bottom: 2px solid #FFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#representantes p { display: block; margin-bottom: 110px; text-align: center; font-family: Georgia, Times, Times New Roman, serif; font-size: 27px; font-size: 1.6875rem; line-height: 35px; font-style: italic; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #FFF; }
+
+#col-filtro { float: right; width: 61.75%; background-color: #f6f6f6; border: 1px solid #CCC; margin-top: 100px; }
+
+#col-filtro .filtro { padding: 40px 70px 0; }
+
+#col-filtro .filtro select { display: block; width: 100%; border: 1px solid #034B9C; border-left-width: 10px; padding: 10px 20px; font-family: Georgia, Times, Times New Roman, serif; font-size: 27px; font-size: 1.6875rem; font-style: italic; color: #777; margin-bottom: 20px; }
+
+#resultado { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#resultado h3.separador { text-align: center; font-size: 18px; font-size: 1.125rem; line-height: 35px; font-family: Georgia, Times, Times New Roman, serif; font-style: italic; padding-bottom: 5px; border-bottom: 1px solid #CCC; position: relative; }
+
+#resultado h3.separador:after { content: ' '; display: block; width: 10px; height: 10px; position: absolute; bottom: -5px; left: 50%; margin-left: -5px; background: url(../img/bullet.png) no-repeat center center; }
+
+#lista-resultados { margin: 30px 30px 70px 70px; height: 520px; overflow: hidden; outline: none; }
+
+#lista-resultados li { width: 100%; margin-bottom: 60px; }
+
+#lista-resultados li h4 { font-size: 24px; font-size: 1.5rem; line-height: 35px; color: #034B9C; font-weight: 600; padding-left: 20px; margin-bottom: 10px; }
+
+#lista-resultados li .telefone { padding-left: 20px; float: left; font-family: Georgia, Times, Times New Roman, serif; font-weight: 700; font-size: 18px; font-size: 1.125rem; line-height: 20px; color: #034B9C; background: url(../img/ico-fone-rep.png) no-repeat left 4px; }
+
+#lista-resultados li .telefone span { font-weight: 400; font-size: 16px; font-size: 1rem; }
+
+#lista-resultados li a { display: block; float: left; color: #034B9C; font-family: Georgia, Times, Times New Roman, serif; line-height: 20px; padding-left: 35px; margin-left: 20px; margin-bottom: 25px; background: url(../img/ico-mail-rep.png) no-repeat left center; }
+
+#lista-resultados li .endereco { clear: left; padding-left: 20px; line-height: 20px; font-family: Georgia, Times, Times New Roman, serif; background: url(../img/ico-marker-rep.png) no-repeat left 2px; }
+
+.mapa { width: 50%; height: 650px; position: absolute; top: 160px; left: -50px; z-index: 10; background: url(../img/mapa.png) no-repeat center top; }
+
+.sigla { text-transform: uppercase; color: #FFF; }
+
+.mapa .estado { cursor: pointer; stroke: #afafaf; fill: #ebebeb; -webkit-transition: 0.2s all ease; -o-transition: 0.2s all ease; transition: 0.2s all ease; }
+
+.mapa .estado:hover { opacity: 0.97; }
+
+.pin-map { cursor: pointer; -webkit-transition: 0.2s all ease; -o-transition: 0.2s all ease; transition: 0.2s all ease; }
+
+.mapa g.grupo-estado:hover .pin-map, .mapa g.grupo-estado.active.pin-map { fill: #034a9c; }
+
+.mapa .baloon { opacity: 0; -webkit-transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1); /* older webkit */ -webkit-transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275); -moz-transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275); -o-transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275); transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275); /* easeOutBack */ }
+
+.mapa .text { opacity: 0; -webkit-transition: all ease 0.2s 0.2s; -o-transition: all ease 0.2s 0.2s; transition: all ease 0.2s 0.2s; }
+
+.mapa g.grupo-estado:hover .text { opacity: 0.4; -webkit-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
+
+.mapa g.grupo-estado:hover .baloon { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); transform: scale(1); }
+
+@media screen and (max-width: 1300px) { .center, #container { margin: 0 3%; } }
+@media screen and (max-width: 1024px) { .center, #container { margin: 0 10%; }
+  .mapaa { display: none; }
+  #col-filtro { width: 100%; } }

@@ -1,0 +1,27 @@
+@font-face {
+  font-family:'Lora';
+  src: url('Lora-Regular.eot?#iefix') format('embedded-opentype'),  url('Lora-Regular.woff') format('woff'), url('Lora-Regular.ttf')  format('truetype'), url('Lora-Regular.svg#Lora-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Lora';
+  src: url('Lora-Italic.eot?#iefix') format('embedded-opentype'),  url('Lora-Italic.woff') format('woff'), url('Lora-Italic.ttf')  format('truetype'), url('Lora-Italic.svg#Lora-Italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family:'Lora';
+  src: url('Lora-Bold.eot?#iefix') format('embedded-opentype'),  url('Lora-Bold.woff') format('woff'), url('Lora-Bold.ttf')  format('truetype'), url('Lora-Bold.svg#Lora-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:'Lora';
+  src: url('Lora-BoldItalic.eot?#iefix') format('embedded-opentype'),  url('Lora-BoldItalic.woff') format('woff'), url('Lora-BoldItalic.ttf')  format('truetype'), url('Lora-BoldItalic.svg#Lora-BoldItalic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}

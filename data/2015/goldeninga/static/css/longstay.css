@@ -1,0 +1,71 @@
+@import url("../fonts/didot_italic/didotitalic.css");
+@import url("../fonts/didot_regular/didotregular.css");
+@import url("../fonts/didot_headline/didotheadline.css");
+@import url("../fonts/futura_book/futurabook.css");
+@import url("../fonts/futura_book_italic/futurabookitalic.css");
+@import url("../fonts/futura_light/futuralight.css");
+@import url("../fonts/futura_light_italic/futuralightitalic.css");
+@import url("../fonts/futura_medium/futuramedium.css");
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1240px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+.container { background: url(../img/pattern-longstay.png) repeat; padding-bottom: 60px; }
+
+#headline { width: 100%; height: 620px; background: url(../img/bkg-banner-longstay.jpg) no-repeat center top; margin-bottom: 70px; }
+
+#headline .ilustra-longstay { float: left; width: 100%; height: 111px; background: url(../img/linha-longstay.png) no-repeat center center; margin-top: 160px; color: #FFF; }
+
+#headline .ilustra-longstay h2 { display: block; float: left; font-family: "Didot Italic", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; font-size: 45px; font-size: 2.8125rem; margin: 55px 0 0 28%; max-width: 500px; }
+
+#headline .ilustra-longstay p { display: block; float: left; font-family: "Didot Roman", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; font-size: 25px; font-size: 1.5625rem; line-height: 30px; margin: 60px 0 0 28%; max-width: 500px; font-family: "Didot Italic", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; }
+
+::-webkit-input-placeholder { color: #1D334D; }
+
+:-moz-placeholder { color: #1D334D; opacity: 1; }
+
+::-moz-placeholder { color: #1D334D; opacity: 1; }
+
+:-ms-input-placeholder { color: #1D334D; }
+
+.box-orcamento { width: 766px; height: 766px; float: left; }
+
+.box-orcamento h2 { display: block; float: left; width: 100%; text-align: center; color: #FFF; font-size: 35px; font-size: 2.1875rem; margin-top: 130px; font-family: "Didot Roman", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; }
+
+.box-orcamento .dias { width: 50%; float: left; padding-left: 20%; margin-top: 80px; font-family: "Didot Italic", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; }
+
+.box-orcamento .dias input { display: block; width: 200px; border: 1px solid #CCC; color: #1D334D; font-size: 16px; font-size: 1rem; padding: 15px; }
+
+.box-orcamento .preco { width: 50%; float: right; padding-left: 5%; margin-top: 80px; font-family: "Didot Italic", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; }
+
+.box-orcamento .preco p { font-size: 30px; font-size: 1.875rem; }
+
+.box-orcamento .preco h3 { font-size: 56px; font-size: 3.5rem; line-height: 1.3em; margin-left: -10px; }
+
+.box-orcamento .preco h3 span { display: inline-block; font-size: 20px; font-size: 1.25rem; position: relative; top: -25px; left: 10px; }
+
+.btn-formulario { display: block; width: 210px; height: 50px; border: 1px solid #FFF; text-align: center; line-height: 48px; font-family: "Futura Book Italic", Futura, Trebuchet MS, Arial, sans-serif; color: #FFF; margin: 140px auto 0; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+.btn-formulario:hover { background-color: #FFF; color: #1D334D; }
+
+#basic { background: url(../img/longstay-basic.png) no-repeat center center; margin-left: 2%; }
+
+#plus { background: url(../img/longstay-plus.png) no-repeat center center; margin-left: 2%; }
+
+#plus.box-orcamento .dias, #plus.box-orcamento .dias input, #plus.box-orcamento .preco p, #plus.box-orcamento .preco h3 { color: #a4864e !important; }
+
+#plus .btn-formulario { color: #1D334D; border-color: #1D334D; }
+
+#plus .btn-formulario:hover { background-color: #FFF; color: #1D334D; }
+
+#footer { margin-top: 0; }
+
+@media screen and (max-width: 800px) { .box-orcamento#basic, .box-orcamento#plus { width: 100%; margin: 0; } }

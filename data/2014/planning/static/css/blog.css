@@ -1,0 +1,34 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700);
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1000px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+a { color: inherit; text-decoration: none; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+#box-image { width: 1240px; height: 230px; margin: 0 auto; position: relative; background: transparent url(../img/blog.jpg) no-repeat center center; }
+
+p { margin: 10px 0; line-height: 1.4em; }
+
+#posts li { height: 230px; margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #CCC; }
+
+#posts li .post-img { width: 480px; float: left; }
+
+#posts li .post-content { width: 500px; float: left; margin-left: 20px; }
+
+#posts li .post-content h3 { font-size: 23px; font-size: 1.4375rem; line-height: 1.3em; }
+
+#posts li .post-content a { color: #1b4a74; }
+
+#navigation { text-align: center; }
+
+#navigation li { display: inline; }
+
+#navigation li a { display: inline-block; width: 20px; height: 20px; border: 1px solid #CCC; line-height: 18px; background-color: #FFF; }
+
+#navigation li a.atual { background-color: #29b8d8; color: #1b4a74; border-color: #1b4a74; }

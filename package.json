@@ -1,0 +1,14 @@
+{
+  "name": "perdidao.github.io",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:perdidao/perdidao.github.io.git",
+  "author": "Lucas Almeida <lucasecalmeida@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sass --watch styles/main.scss:main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.54.2"
+  }
+}

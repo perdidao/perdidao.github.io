@@ -1,0 +1,57 @@
+@import url(../font/geared.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 960px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+body { background: white url(../img/bkg-pag-produtos.png) repeat-y center top; }
+
+#container { margin-top: 140px; min-height: 300px; }
+
+#categorias { width: 230px; float: left; padding-top: 70px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#categorias h2 { font-family: "Geared", Helvetica, Arial, Sans-serif; font-size: 24px; font-size: 1.5rem; text-transform: uppercase; color: #000; letter-spacing: 0.11em; margin-bottom: 15px; }
+
+#categorias h3 { font-family: "Geared", Helvetica, Arial, Sans-serif; font-size: 18px; font-size: 1.125rem; text-transform: uppercase; letter-spacing: 0.11em; color: #FFF; margin-bottom: 5px; }
+
+#categorias h3.active { color: #000; }
+
+#categorias ul { margin-bottom: 20px; }
+
+#categorias ul li { margin-bottom: 3px; }
+
+#categorias ul li a { font-size: 12px; font-size: 0.75rem; font-weight: 600; color: #FFF; }
+
+#categorias ul li a.active { color: #000; }
+
+#produto { width: 710px; float: right; padding: 70px 0 100px; }
+
+#fotos-produto { width: 380px; float: left; }
+
+#foto-ativa { border: 5px solid #FFF; }
+
+#foto-ativa img { display: block; width: 100%; }
+
+#miniaturas { width: 380px; margin-top: 20px; }
+
+#miniaturas li { float: left; width: 80px; height: 80px; border: 5px solid #FFF; margin: 0 20px 20px 0; }
+
+#miniaturas li:nth-child(4n) { margin-right: 0; }
+
+#miniaturas li a img { display: block; width: 100%; }
+
+#fotos-produto a.btn { display: block; width: 100%; height: 36px; text-align: center; line-height: 36px; color: #FFF; letter-spacing: 0.14em; -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); font-size: 12px; font-size: 0.75rem; }
+
+#fotos-produto a.btn.btn-cinza { background: transparent url(../img/btn-produto.png) no-repeat center center; }
+
+#info-produto { width: 310px; float: right; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#info-produto h2 { font-family: "Geared", Helvetica, Arial, Sans-serif; font-size: 24px; font-size: 1.5rem; color: #509622; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 15px; }
+
+#info-produto h3 { font-size: 14px; font-size: 0.875rem; margin: 5px 0; font-weight: 600; color: #509622; }
+
+#info-produto p { line-height: 1.4em; }

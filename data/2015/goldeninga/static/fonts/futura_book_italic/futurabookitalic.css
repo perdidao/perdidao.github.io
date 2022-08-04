@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Futura Book Italic';
+    src: url('futurabookitalic.eot');
+    src: url('futurabookitalic.eot') format('embedded-opentype'),
+         url('futurabookitalic.woff2') format('woff2'),
+         url('futurabookitalic.woff') format('woff'),
+         url('futurabookitalic.ttf') format('truetype'),
+         url('futurabookitalic.svg#FuturaStdBookOblique') format('svg');
+}

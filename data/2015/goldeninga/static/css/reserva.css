@@ -1,0 +1,107 @@
+@import url("../fonts/didot_italic/didotitalic.css");
+@import url("../fonts/didot_regular/didotregular.css");
+@import url("../fonts/didot_headline/didotheadline.css");
+@import url("../fonts/futura_book/futurabook.css");
+@import url("../fonts/futura_book_italic/futurabookitalic.css");
+@import url("../fonts/futura_light/futuralight.css");
+@import url("../fonts/futura_light_italic/futuralightitalic.css");
+@import url("../fonts/futura_medium/futuramedium.css");
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1240px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+.step1pj, .step2, .step3 { display: none; }
+
+.overlay-reserva { display: none; position: fixed; z-index: 999; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); }
+
+::-webkit-input-placeholder { color: #1D334D; }
+
+:-moz-placeholder { color: #1D334D; opacity: 1; }
+
+::-moz-placeholder { color: #1D334D; opacity: 1; }
+
+:-ms-input-placeholder { color: #1D334D; }
+
+#reserva { width: 80%; height: 90%; background-color: #FFF; position: absolute; top: 5%; left: 10%; }
+
+#fechar { position: absolute; top: 3px; right: 0; width: 60px; height: 60px; background: #607082 url(../img/ico-fechar.png) no-repeat center center; }
+
+#reserva .passos { width: 100%; height: 3px; background-color: #F77; }
+
+#reserva .passos .concluido { width: 0; height: 3px; background-color: #1CFF87; }
+
+#reserva .passos.passo1 .concluido { width: 33.3%; }
+
+#reserva .passos.passo2 .concluido { width: 66.6%; }
+
+#reserva .passos.passo3 .concluido { width: 100%; }
+
+#reserva h2 { max-width: 80%; margin: 80px 10% 50px; font-size: 25px; font-size: 1.5625rem; font-family: "Didot Italic", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; }
+
+#reserva .btn-pessoa { display: block; float: left; width: 40%; height: 60px; margin-left: 10%; border: 1px solid #1D334D; font-family: "Didot Roman", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; font-size: 24px; font-size: 1.5rem; line-height: 58px; color: #1D334D; text-align: center; }
+
+#reserva .btn-pessoa.active { color: #FFF; background-color: #1D334D; }
+
+#reserva .btn-pessoa#pj { margin-left: 0; }
+
+.step { padding: 0 10%; }
+
+#reserva .col-left { float: left; width: 45%; }
+
+#reserva .col-right { float: left; width: 45%; margin-left: 10%; }
+
+#reserva input, #reserva textarea { display: block; width: 100%; border: 2px solid #1D334D; font-size: 16px; font-size: 1rem; font-family: "Futura Medium", Futura, Trebuchet MS, Arial, sans-serif; color: #1D334D; }
+
+#reserva input { margin-top: 40px; border-left: 0; border-right: 0; border-top: 0; padding-bottom: 15px; }
+
+#reserva textarea { resize: none; height: 240px; padding: 10px; }
+
+#reserva input.required { border-color: #F77; }
+
+.avancar, .enviar { display: block; float: right; font-family: "Futura Book Italic", Futura, Trebuchet MS, Arial, sans-serif; font-size: 18px; font-size: 1.125rem; color: #FFF; border: 0; background-color: #1D334D; text-transform: uppercase; padding: 15px 50px; cursor: pointer; }
+
+.notice { display: block; float: right; margin: 20px; color: #F77; font-family: "Didot Italic", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; font-size: 16px; font-size: 1rem; }
+
+#reserva .step1pf .col-right { margin-top: 85px; }
+
+#reserva .step1pf .avancar { margin-top: 30px; }
+
+#reserva .step1pf .notice { margin-top: 50px; }
+
+#reserva .step1pf .line { width: 100%; margin-top: 50px; }
+
+#reserva .step1pf .line span, #reserva .step1pf .line p { display: block; float: left; }
+
+#reserva .step1pf .line span { margin-right: 80px; }
+
+#reserva .step1pf .line p { margin-right: 40px; font-size: 13px; font-size: 0.8125rem; }
+
+#reserva .step2 input { float: left; }
+
+#reserva .step2 input#endereco { width: 45%; margin-right: 5%; }
+
+#reserva .step2 input#numero { width: 22.5%; margin-right: 5%; }
+
+#reserva .step2 input#complemento { width: 22.5%; }
+
+#reserva .step2 input#estado { width: 25%; margin-right: 12.5%; }
+
+#reserva .step2 input#cidade { width: 25%; margin-right: 12.5%; }
+
+#reserva .step2 input#bairro { width: 25%; }
+
+#reserva .step2 input#cep { width: 25%; }
+
+#reserva .step3 .titulo-comentarios { margin-top: 40px; margin-bottom: 10px; text-transform: uppercase; }
+
+#reserva .step3 .enviar { margin-top: 30px; }
+
+#reserva .step3 .notice { margin-top: 50px; }

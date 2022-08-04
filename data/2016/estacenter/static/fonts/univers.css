@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Univers';
+  src: url('Univers-Light.eot?#iefix') format('embedded-opentype'),  url('Univers-Light.otf')  format('opentype'),
+       url('Univers-Light.woff') format('woff'), url('Univers-Light.ttf')  format('truetype'), url('Univers-Light.svg#Univers-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Univers';
+  src: url('Univers.eot?#iefix') format('embedded-opentype'),  url('Univers.otf')  format('opentype'),
+       url('Univers.woff') format('woff'), url('Univers.ttf')  format('truetype'), url('Univers.svg#Univers') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Univers';
+  src: url('Univers-Bold.eot?#iefix') format('embedded-opentype'),  url('Univers-Bold.otf')  format('opentype'),
+       url('Univers-Bold.woff') format('woff'), url('Univers-Bold.ttf')  format('truetype'), url('Univers-Bold.svg#Univers-Bold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Univers Condensed';
+  src: url('Univers-Condensed.eot?#iefix') format('embedded-opentype'),  url('Univers-Condensed.otf')  format('opentype'),
+	     url('Univers-Condensed.woff') format('woff'), url('Univers-Condensed.ttf')  format('truetype'), url('Univers-Condensed.svg#Univers-Condensed') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Univers Condensed';
+  src: url('Univers-CondensedLight.eot?#iefix') format('embedded-opentype'),  url('Univers-CondensedLight.otf')  format('opentype'),
+	     url('Univers-CondensedLight.woff') format('woff'), url('Univers-CondensedLight.ttf')  format('truetype'), url('Univers-CondensedLight.svg#Univers-CondensedLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Univers Condensed';
+  src: url('Univers-CondensedBold.eot?#iefix') format('embedded-opentype'),  url('Univers-CondensedBold.otf')  format('opentype'),
+	     url('Univers-CondensedBold.woff') format('woff'), url('Univers-CondensedBold.ttf')  format('truetype'), url('Univers-CondensedBold.svg#Univers-CondensedBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}

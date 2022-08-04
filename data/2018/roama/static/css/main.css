@@ -1,0 +1,107 @@
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+* { box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+@font-face { font-family: 'Moreno'; src: url("../fonts/MorenoRustTwo-XThin.eot?#iefix") format("embedded-opentype"), url("../fonts/MorenoRustTwo-XThin.otf") format("opentype"), url("../fonts/MorenoRustTwo-XThin.woff") format("woff"), url("../fonts/MorenoRustTwo-XThin.ttf") format("truetype"), url("../fonts/MorenoRustTwo-XThin.svg#MorenoRustTwo-XThin") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Museo'; src: url("../fonts/Museo300-Regular-webfont.woff2") format("woff2"), url("../fonts/Museo300-Regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+/* Estilos globais */
+body { font-family: "Moreno", "Museo", Helvetica, Arial, sans-serif; font-size: 28px; color: #FFF; background-color: #000; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+::-moz-selection { color: #FFF; background-color: #FFD200; }
+
+::selection { color: #FFF; background-color: #FFD200; }
+
+.clear { clear: both; }
+
+#header { position: absolute; top: 30px; left: 20%; z-index: 10; }
+#header #logo { display: block; max-width: 270px; margin-bottom: 45px; }
+#header #logo img { display: block; width: 100%; }
+#header ul li a { font-size: 36px; text-transform: uppercase; line-height: 1.2; transition: all 300ms ease-in-out; }
+#header ul li a:hover { color: #FFD200; }
+
+#container { padding: 1px; min-height: 100vh; }
+#container.proposito { background: url(../img/bkg-proposito.jpg) no-repeat bottom right; }
+#container.proposito .inner { max-width: 880px; margin: 370px auto 100px; }
+#container.contato { background: url(../img/bkg-contato.jpg) no-repeat top center; }
+#container.contato .inner { max-width: 790px; margin: 640px auto 0; }
+#container.contato .inner .left { float: left; width: 48%; margin-right: 4%; }
+#container.contato .inner form { position: relative; overflow: hidden; }
+#container.contato .inner input, #container.contato .inner textarea, #container.contato .inner button { display: block; width: 100%; float: left; border: 5px solid #FFF; padding: 5px 10px; margin-bottom: 20px; font: 400 24px "Moreno", "Museo", Helvetica, Arial, sans-serif; color: #FFF; background: transparent; }
+#container.contato .inner textarea { width: 48%; height: 185px; }
+#container.contato .inner button { cursor: pointer; transition: all 300ms ease-in-out; width: 48%; position: absolute; bottom: 0; left: 0; }
+#container.contato .inner button:hover { background-color: #FFF; color: #000; }
+#container.trabalhos { background: url(../img/bkg-trabalhos.jpg) repeat top right; }
+#container.trabalhos .inner { width: 100%; background: rgba(0, 0, 0, 0.9); padding: 90px 0 30px; margin: 320px auto 0; }
+#container.trabalhos.interna .inner { padding: 0; background: #FFF; }
+#container .inner { width: 90%; margin: 0 auto; }
+#container p { font-family: "Museo", Helvetica, Arial, sans-serif; font-size: 30px; line-height: 1.2; }
+
+#social { float: right; margin-top: 20px; }
+#social li { display: inline-block; margin: 0 10px; }
+#social li a { display: block; width: 70px; height: 70px; background: no-repeat center center; transition: all 300ms ease-in-out; }
+#social li a:hover { opacity: 0.6; }
+#social li a.fb { background-image: url(../img/ico-fb.png); }
+#social li a.ig { background-image: url(../img/ico-ig.png); }
+#social li a.yt { background-image: url(../img/ico-yt.png); }
+#social li a.be { background-image: url(../img/ico-be.png); }
+
+#projetos { width: 90%; max-width: 650px; margin: 0 auto; overflow: hidden; }
+#projetos li { float: left; width: 30%; margin: 0 5% 5% 0; }
+#projetos li a { display: block; transition: all 300ms ease-in-out; }
+#projetos li a:hover { opacity: 0.6; }
+#projetos li img { display: block; width: 100%; }
+#projetos li:nth-child(3n) { margin-right: 0; }
+
+#projeto li { -ms-transform: scale(0.8); transform: scale(0.8); transition: all 300ms ease-in-out; }
+#projeto li img, #projeto li iframe { display: block; }
+#projeto .center li { -ms-transform: scale(1); transform: scale(1); }
+#projeto .owl-prev, #projeto .owl-next { position: absolute; top: 50%; -ms-transform: translatey(-50%); transform: translatey(-50%); width: 70px; height: 70px; background: no-repeat center center; text-indent: -9999em; overflow: hidden; transition: all 300ms ease-in-out; }
+#projeto .owl-prev:hover, #projeto .owl-next:hover { opacity: 0.6; }
+#projeto .owl-prev { background-image: url(../img/arw-prev.png); left: 25%; }
+#projeto .owl-next { background-image: url(../img/arw-next.png); right: 25%; }
+
+#cats { width: 100%; margin: 50px auto; text-align: center; }
+#cats li { display: inline-block; margin: 0 20px 20px; }
+#cats li a { text-transform: uppercase; transition: all 300ms ease-in-out; }
+#cats li a:hover { color: #FFD200; }
+
+#footer { position: static; max-width: 780px; border: 1px solid #FFF; border-bottom: 0; padding: 20px 35px; margin: 120px auto 0; }
+
+@media screen and (max-width: 1024px) { #header { position: static; width: 90%; margin: 30px auto; }
+  #header ul li a { font-size: 24px; }
+  #container { position: static; min-height: 1px; }
+  #container.proposito { background: transparent; }
+  #container.contato { background-position: bottom center; }
+  #container.contato .inner { margin: 50px auto 0; }
+  #container.trabalhos .inner { background: transparent; margin: 0 auto; }
+  #container .inner { width: 90%; margin: 50px auto 100px; }
+  #container p { font-size: 20px; line-height: 1.5; }
+  #footer p { font-size: 18px; } }
+@media screen and (max-width: 740px) { #container.contato .inner .left { width: 100%; margin-right: 0; }
+  #container.contato .inner textarea { width: 100%; }
+  #container.contato .inner button { position: static; width: 100%; }
+  #container #social { width: 100%; text-align: center; }
+  #container #social li { margin: 0 5px; }
+  #container #social li a { width: 40px; height: 40px; background-size: contain; } }
+@media screen and (max-width: 520px) { #projetos li { width: 47.5%; margin: 0 5% 5% 0; }
+  #projetos li:nth-child(3n) { margin-right: 5%; }
+  #projetos li:nth-child(2n) { margin-right: 0; }
+  #cats li a { font-size: 20px; } }
+@media screen and (max-width: 360px) { #projetos li { width: 100%; margin: 0 0 5%; }
+  #projetos li:nth-child(3n) { margin-right: 0; } }

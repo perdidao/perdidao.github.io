@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400italic,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 690px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { text-decoration: none; color: inherit; }
+
+body { font-family: "Raleway", Helvetica, Arial, Sans-serif; font-size: 14px; font-size: 0.875rem; color: #2b1001; }
+
+#menu { position: fixed; z-index: 10; top: 0; left: 0; width: 100%; height: 145px; background: transparent url(../img/bkg-menu.png) no-repeat center top; }
+
+#menu.fixed { height: 60px; background: transparent url(../img/bkg-menu-fixed.png) no-repeat center top; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#menu.fixed #logo { height: 60px; }
+
+#logo { display: block; float: left; width: 180px; height: 140px; margin-left: 10px; }
+
+#nav { margin-left: 205px; }
+
+#nav li a { display: block; float: left; height: 60px; line-height: 60px; color: #c58520; text-transform: uppercase; margin-right: 25px; background: transparent url(../img/bkg-menu-hover.png) no-repeat center -50px; -moz-transition: all 200ms linear; -o-transition: all 200ms linear; -webkit-transition: all 200ms linear; transition: all 200ms linear; }
+
+#nav li a:hover, #nav li a.current { background-position: center center; }
+
+#inicial { width: 100%; height: 790px; background: transparent url(../img/bkg-inicial.jpg) no-repeat center top; margin-top: 60px; }
+
+#sobre { width: 100%; height: 530px; background: transparent url(../img/bkg-sobre.jpg) no-repeat center center; }
+
+#sobre .center { width: 650px; }
+
+.subnav li a { display: block; float: left; height: 60px; padding-top: 30px; font-family: "Droid Serif", "Times New Roman", Serif; font-weight: 700; font-size: 16px; font-size: 1rem; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-style: italic; color: #793500; margin-right: 15px; background: transparent url(../img/blt-active.png) no-repeat center -18px; -moz-transition: all 200ms linear; -o-transition: all 200ms linear; -webkit-transition: all 200ms linear; transition: all 200ms linear; }
+
+.subnav li a:hover, .subnav li a.current { color: #2b1001; background-position: center top; }
+
+.abas-sobre { width: 100%; height: 340px; margin-top: 40px; overflow: hidden; }
+
+.abas-sobre p { margin: 20px 40px 0 0; line-height: 1.4em; }
+
+.lista-produtos li { height: 340px; margin-bottom: 20px; }
+
+.lista-produtos li .col-image { float: left; width: 260px; }
+
+.lista-produtos li .col-info { float: right; width: 335px; margin-top: 30px; }
+
+.lista-produtos li .col-info h2 { text-transform: uppercase; font-weight: 600; }
+
+.lista-premios li { margin-bottom: 30px; }
+
+.lista-premios li .col-image { float: left; width: 165px; }
+
+.lista-premios li .col-info { float: right; width: 450px; }
+
+.lista-premios li .col-info h2 { text-transform: uppercase; font-weight: 600; }
+
+#loja { width: 100%; height: 900px; background: transparent url(../img/bkg-loja.jpg) no-repeat center center; position: relative; }
+
+#nossal-loja { position: absolute; top: 50%; left: 50%; margin-top: -218.5px; margin-left: -313px; display: block; width: 626px; height: 437px; background: transparent url(../img/btn-loja.png) no-repeat center 0; cursor: default; }
+
+#endereco { width: 100%; height: 530px; background: transparent url(../img/bkg-endereco.jpg) no-repeat center center; }
+
+.abas-endereco { width: 100%; height: 340px; overflow: hidden; }
+
+.aba-producao { margin-top: 40px; }
+
+.aba-producao img { margin-bottom: 10px; }
+
+.aba-producao h2 { font-weight: 600; }
+
+.aba-producao p { margin: 20px 40px 0 0; line-height: 1.4em; }
+
+.aba-pdv .desc-pdv { font-family: "Droid Serif", "Times New Roman", Serif; font-style: italic; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #793500; margin: 20px 0 10px; }
+
+.aba-pdv h2 { font-weight: 600; text-transform: uppercase; margin-bottom: 7px; }
+
+.aba-pdv ul { margin-bottom: 20px; }
+
+.aba-pdv ul li { margin-bottom: 10px; float: left; width: 30%; margin-righ: 3%; }
+
+.aba-pdv ul li h3 { font-weight: 600; }
+
+.aba-parceiros .desc-parceiros { font-family: "Droid Serif", "Times New Roman", Serif; font-style: italic; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #793500; margin: 20px 0 10px; }
+
+.aba-parceiros h2 { font-weight: 600; text-transform: uppercase; margin-bottom: 7px; }
+
+.aba-parceiros ul { margin-bottom: 20px; }
+
+.aba-parceiros ul li { margin-bottom: 10px; float: left; width: 30%; margin-righ: 3%; }
+
+.aba-parceiros ul li h3 { font-weight: 600; }
+
+#contato { width: 100%; height: 748px; padding-top: 120px; background: transparent url(../img/bkg-contato.jpg) no-repeat center center; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1.5em; }
+
+#contato .center { width: 940px; }
+
+#contato .col-info { width: 330px; float: left; }
+
+#contato .col-info h2 { font-family: "Droid Serif", "Times New Roman", Serif; font-size: 24px; font-size: 1.5rem; font-style: italic; color: #FFF; letter-spacing: .1em; margin-bottom: 10px; }
+
+#contato .col-info h3 { font-size: 16px; font-size: 1rem; color: #FFF; margin: 15px 0; }
+
+#contato .col-info h3 span { color: #fff200; }
+
+#contato .col-info p { color: #FFF; margin-bottom: 15px; }
+
+#contato .col-info p span { color: #fff200; font-size: 16px; font-size: 1rem; }
+
+#contato .col-form { width: 460px; float: left; margin-left: 60px; }
+
+#contato .col-form label { display: block; width: 100%; margin-bottom: 10px; color: #FFF; }
+
+#contato .col-form label.i-full { width: 100%; }
+
+#contato .col-form label.i-60 { width: 57%; float: left; }
+
+#contato .col-form label.i-40 { width: 37%; float: left; margin-left: 6%; }
+
+#contato .col-form label input, #contato .col-form label textarea { display: block; width: 100%; padding: 5px; margin-top: 10px; border: 0; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; font-size: 16px; font-size: 1rem; font-family: "Raleway", Helvetica, Arial, Sans-serif; color: #FFF; background: transparent url(../img/bkg-input.png) repeat; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#contato .col-form label textarea { height: 165px; resize: none; }
+
+#enviar { display: block; float: right; border: 0; padding-left: 40px; font-family: "Droid Serif", "Times New Roman", Serif; color: #FFF; letter-spacing: .11em; font-size: 18px; font-size: 1.125rem; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: transparent url(../img/ico-b.png) no-repeat left center; cursor: pointer; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#enviar:hover { background-image: url(../img/ico-b-hover.png); }
+
+#footer { width: 100%; height: 180px; background: transparent url(../img/bkg-footer.jpg) no-repeat center top; }
+
+#footer .center { width: 940px; }
+
+#footer address { color: #ffce9e; letter-spacing: .11em; line-height: 24px; padding-top: 30px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#footer p { margin-top: 35px; }
+
+#footer p span { display: block; float: left; line-height: 30px; color: #6e5e50; font-size: 12px; font-size: 0.75rem; font-style: italic; }
+
+#footer p #oapo { display: block; float: left; margin-left: 10px; width: 103px; height: 30px; background: transparent url(../img/oap.png) no-repeat center center; }

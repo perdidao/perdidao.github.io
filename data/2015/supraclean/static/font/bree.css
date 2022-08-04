@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'Bree Light';
+    src: url('Bree Light-webfont.eot');
+    src: url('Bree Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Bree Light-webfont.woff') format('woff'),
+         url('Bree Light-webfont.ttf') format('truetype'),
+         url('Bree Light-webfont.svg#bree_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Bree';
+    src: url('Bree Regular-webfont.eot');
+    src: url('Bree Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Bree Regular-webfont.woff') format('woff'),
+         url('Bree Regular-webfont.ttf') format('truetype'),
+         url('Bree Regular-webfont.svg#bree_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Bree Bold';
+    src: url('Bree Bold-webfont.eot');
+    src: url('Bree Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Bree Bold-webfont.woff') format('woff'),
+         url('Bree Bold-webfont.ttf') format('truetype'),
+         url('Bree Bold-webfont.svg#bree_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

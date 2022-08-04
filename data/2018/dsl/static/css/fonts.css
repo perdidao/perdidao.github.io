@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Peugeot';
+  src: url('../fonts/Peugeot.eot?#iefix') format('embedded-opentype'),  url('../fonts/Peugeot.otf')  format('opentype'),
+	     url('../fonts/Peugeot.woff') format('woff'), url('../fonts/Peugeot.ttf')  format('truetype'), url('../fonts/Peugeot.svg#Peugeot') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Peugeot';
+  src: url('../fonts/Peugeot-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Peugeot-Bold.otf')  format('opentype'),
+	     url('../fonts/Peugeot-Bold.woff') format('woff'), url('../fonts/Peugeot-Bold.ttf')  format('truetype'), url('../fonts/Peugeot-Bold.svg#Peugeot-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

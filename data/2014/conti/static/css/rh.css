@@ -1,0 +1,101 @@
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1260px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+#linha-topo { width: 75%; height: 6px; background-color: #929497; }
+
+#banner { width: 100%; height: 390px; background: url(../img/banner-rh.jpg) no-repeat center top; text-align: center; padding-top: 170px; }
+
+#banner h1 { color: #FFF; font-size: 90px; font-size: 5.625rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; }
+
+.sobre { padding: 70px 0 60px; background: #e5e7ea; }
+
+.sobre h2 { text-align: center; margin-bottom: 40px; }
+
+.sobre p { float: left; width: 33%; margin: 0 2%; font-size: 16px; font-size: 1rem; line-height: 28px; text-align: justify; }
+
+.sobre p.sobre-left { margin-left: 15%; }
+
+.area-textos img { display: block; width: 100%; }
+
+.area-textos .col-left { float: left; width: 49%; }
+
+.area-textos .col-left .inner-col { float: right; margin-right: 5%; }
+
+.area-textos .col-right { float: right; width: 49%; }
+
+.area-textos .col-right .inner-col { float: left; margin-left: 5%; }
+
+.area-textos .inner-col { margin: 50px 0 70px; width: 45%; }
+
+.area-textos .inner-col h3 { font-size: 40px; font-size: 2.5rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-weight: 600; margin-bottom: 20px; }
+
+.area-textos .inner-col p { font-size: 16px; font-size: 1rem; line-height: 28px; text-align: justify; }
+
+.area-textos .inner-col .btn-textos { display: inline-block; padding: 5px 20px; border: 2px solid #1B3280; color: #1B3280; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 20px; font-size: 1.25rem; margin-top: 20px; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+.area-textos .inner-col .btn-textos:hover { background-color: #1B3280; color: #FFF; }
+
+#visitas { padding: 130px 0; background: #e5e7ea url(../img/logo-visita.png) no-repeat right bottom; }
+
+#visitas h2 { text-align: center; margin-bottom: 30px; }
+
+#visitas p { max-width: 64%; margin: 0 auto; font-size: 16px; font-size: 1rem; line-height: 28px; text-align: justify; }
+
+#visitas p strong { font-family: "Avenir Roman", Helvetica, Arial, sans-serif; font-weight: 600; }
+
+.btn-visita { display: block; width: 400px; height: 50px; margin: 40px auto 0; border: 3px solid #1B3280; color: #1B3280; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 27px; font-size: 1.6875rem; text-align: center; line-height: 46px; }
+
+#banner-trabalhe { width: 100%; height: 479px; background: url(../img/img-conteudo/trabalhe-conosco.jpg) no-repeat center center; }
+
+#trabalhe-conosco { background-color: #485054; }
+
+#trabalhe-conosco .center { padding: 130px 0; }
+
+#trabalhe-conosco h2 { text-align: center; margin-bottom: 30px; color: #FFF; }
+
+#trabalhe-conosco p { max-width: 64%; margin: 0 auto; font-size: 16px; font-size: 1rem; line-height: 28px; text-align: justify; color: #FFF; }
+
+#trabalhe-conosco p strong { font-family: "Avenir Roman", Helvetica, Arial, sans-serif; font-weight: 600; }
+
+.btn-trabalhe { display: block; width: 400px; height: 50px; margin: 40px auto 0; border: 3px solid #FFF; color: #FFF; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 27px; font-size: 1.6875rem; text-align: center; line-height: 46px; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+.btn-trabalhe:hover { background-color: #FFF; color: #404041; }
+
+.overlay { display: none; }
+
+.overlay .o-content { padding: 60px 100px 80px; }
+
+.overlay .o-content h2 { font-size: 32px; font-size: 2rem; max-width: 45%; margin-bottom: 40px; }
+
+.overlay .o-content .col-left { float: left; width: 45%; margin-right: 10%; }
+
+.overlay .o-content .col-right { float: left; width: 45%; }
+
+.overlay .o-content label { display: block; font-size: 17px; font-size: 1.0625rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; margin-bottom: 20px; }
+
+.overlay .o-content input, .overlay .o-content textarea { display: block; width: 100%; padding: 5px 10px; margin-top: 10px; background-color: #d0d2d3; border: 0; height: 40px; font-size: 17px; font-size: 1.0625rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; color: #404041; }
+
+#enviar { display: block; float: right; padding: 10px 30px; margin-top: 20px; border: 3px solid #1B3280; color: #1B3280; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 18px; font-size: 1.125rem; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; text-transform: none; font-weight: 600; }
+
+.overlay .o-content textarea { height: 130px; resize: none; }
+
+@media screen and (max-width: 1260px) { .center { width: 96%; } }
+@media screen and (max-width: 900px) { .area-textos .col-left, .area-textos .col-right { width: 100%; }
+  #visitas p, #trabalhe-conosco p { max-width: 90%; }
+  .area-textos .col-left .inner-col, .area-textos .col-right .inner-col { margin: 50px auto 70px; float: none; } }
+@media screen and (max-width: 740px) { .sobre p { float: none; width: 80%; margin: 0 auto; }
+  .sobre p.sobre-left { margin-left: auto; }
+  .area-textos .inner-col { margin: 50px 10% 70px; width: 80%; }
+  .area-textos .col-left .inner-col { float: none; margin-right: 10%; }
+  .area-textos .col-right .inner-col { float: none; margin-left: 10%; }
+  #visitas { padding: 60px 0; } }
+@media screen and (max-width: 440px) { .btn-visita, .btn-trabalhe { width: 100%; height: auto; padding: 5px 20px; line-height: 1.3em; } }

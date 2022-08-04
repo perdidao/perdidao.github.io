@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.center { width: 96%; max-width: 1120px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+body { background-color: #81EFDF; color: #919191; font-family: "Oxygen", -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif; font-size: 18px; font-size: 1.125rem; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+body.pg-inicial { background: #81EFDF url(../img/bkg-inicial.png) no-repeat center top; }
+
+body.pg-casal { background: #81EFDF url(../img/bkg-casal.png) no-repeat center top; }
+
+body.pg-confirmacao { background: #81EFDF url(../img/bkg-confirmacao.png) no-repeat center top; }
+
+::-moz-selection { color: #81EFDF; background-color: #FFF; }
+
+::selection { color: #81EFDF; background-color: #FFF; }
+
+#btn-menu { display: none; width: 30px; height: 30px; position: fixed; top: 35px; right: 35px; }
+#btn-menu span, #btn-menu:before, #btn-menu:after { content: " "; display: block; width: 30px; height: 2px; background-color: #81EFDF; -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); position: absolute; left: 0; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+#btn-menu:before { top: 0px; }
+#btn-menu span { top: 14px; filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false); opacity: 1; }
+#btn-menu:after { bottom: 0; }
+#btn-menu.active span { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; top: 14px; -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+#btn-menu.active:before { width: 34px; top: 14px; left: -2px; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+#btn-menu.active:after { width: 34px; bottom: 14px; left: -2px; -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+#header { width: 100%; min-height: 100px; background-color: #FFF; }
+
+#logo { display: block; float: left; width: 162px; height: 60px; margin: 20px 0; background: url(../img/logo.png) no-repeat center center; text-indent: -9999em; overflow: hidden; }
+
+#menu { float: right; }
+
+#menu a { display: block; float: left; height: 100px; line-height: 100px; text-transform: uppercase; font-size: 16px; font-size: 1rem; padding: 0 20px; position: relative; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#menu a.active, #menu a:hover { color: #81EFDF; }
+
+#menu a:after { content: ' '; display: block; width: 100%; height: 0; background-color: #81EFDF; position: absolute; bottom: 0; left: 0; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#menu a.active:after, #menu a:hover:after { height: 10px; }
+
+#frase { max-width: 960px; width: 96%; margin: 390px auto 0; }
+
+#frase p { font-family: "Playfair Display", "Times New Roman", serif; text-align: center; font-style: italic; font-size: 44px; font-size: 2.75rem; line-height: 62px; }
+
+#o-casal { margin-top: 340px; }
+
+#o-casal h2 { font-family: "Playfair Display", "Times New Roman", serif; font-size: 30px; font-size: 1.875rem; }
+
+#o-casal p { line-height: 28px; text-align: justify; margin-top: 40px; }
+
+#o-casal .pamela, #o-casal .ricardo { width: 48.2%; float: left; }
+
+#o-casal .ricardo { margin-left: 3.6%; }
+
+#padrinhos { margin-top: 100px; }
+
+#padrinhos li { margin-bottom: 50px; }
+
+#padrinhos li .image { float: left; width: 48%; }
+
+#padrinhos li .image img { display: block; width: 100%; }
+
+#padrinhos li .info { float: left; width: 48%; }
+
+#padrinhos li .info h2 { font-family: "Playfair Display", "Times New Roman", serif; font-size: 30px; font-size: 1.875rem; margin-top: 30px; }
+
+#padrinhos li .info p { line-height: 28px; text-align: justify; margin-top: 40px; }
+
+#padrinhos li.p-left .info { margin-left: 4%; }
+
+#padrinhos li.p-right .image { margin-left: 4%; }
+
+.endereco { margin-top: 60px; }
+
+.endereco .info { float: left; width: 23%; }
+
+.endereco .info h2 { font-family: "Playfair Display", "Times New Roman", serif; font-size: 30px; font-size: 1.875rem; margin-top: 30px; }
+
+.endereco .info p { line-height: 28px; text-align: justify; margin-top: 40px; }
+
+.endereco .info input { display: block; width: 100%; height: 40px; border: 0; margin: 20px 0 0; font-family: "Oxygen", -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif; font-size: 16px; font-size: 1rem; text-align: center; color: #919191; }
+
+.endereco .info button { display: block; width: 100%; padding: 10px 0; border: 0; background-color: #919191; text-align: center; color: #FFF; font-family: "Oxygen", -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif; font-size: 16px; font-size: 1rem; text-transform: uppercase; cursor: pointer; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; }
+
+.endereco .info button:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; }
+
+.endereco .info button:active { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40); opacity: 0.4; }
+
+.endereco .mapa { float: left; width: 73%; height: 360px; background-color: #FFF; }
+
+.endereco.cerimonia .mapa { margin-left: 4%; }
+
+.endereco.recepcao .info { margin-left: 4%; }
+
+#confirmacao { margin-top: 270px; }
+
+#confirmacao h2 { font-family: "Playfair Display", "Times New Roman", serif; font-size: 30px; font-size: 1.875rem; }
+
+#confirmacao p { line-height: 28px; text-align: justify; margin: 40px 0 30px; }
+
+#lista-presentes { float: left; width: 25%; }
+
+#pontofrio { display: block; margin-top: 40px; }
+
+#pontofrio img { display: block; width: 100%; }
+
+#form { float: right; width: 50%; }
+
+#form input, #form textarea { display: block; float: left; width: 100%; padding: 10px; border: 0; margin: 0 0 10px; font-family: "Oxygen", -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif; font-size: 16px; font-size: 1rem; color: #919191; }
+
+#form input#email { width: 49%; margin-right: 2%; }
+
+#form input#telefone { width: 49%; }
+
+#form textarea { resize: none; min-height: 100px; }
+
+#confirmar { display: block; float: right; width: 49%; padding: 10px 0; border: 0; background-color: #919191; text-align: center; color: #FFF; font-family: "Oxygen", -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif; font-size: 16px; font-size: 1rem; text-transform: uppercase; cursor: pointer; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -webkit-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out; }
+
+#confirmar:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); opacity: 0.8; }
+
+#confirmar:active { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40); opacity: 0.4; }
+
+#msg { display: none; border: 3px double #FFF; padding: 20px; color: #FFF; margin-top: 30px; line-height: 1.4em; }
+
+#footer { padding-bottom: 20px; border-bottom: 10px solid #FFF; margin-top: 100px; }
+
+#footer p { display: block; float: left; font-size: 14px; font-size: 0.875rem; line-height: 30px; }
+
+#assinatura { display: block; float: right; width: 56px; height: 30px; background: url(../img/ffw.png) no-repeat center center; text-indent: -9999em; overflow: hidden; }
+
+@media screen and (max-width: 1024px) { #padrinhos li .image { width: 40%; }
+  #padrinhos li .info { width: 56%; }
+  #padrinhos li .info h2 { margin-top: 0; } }
+@media screen and (max-width: 860px) { #btn-menu { display: block; }
+  #menu { display: none; position: fixed; top: 100px; right: 0; width: 100%; background-color: #FFF; border-top: 5px solid #919191; }
+  #menu a { width: 100%; height: auto; line-height: 1.4em; text-align: center; padding: 20px 10px; }
+  #menu a.active, #menu a:hover { background-color: #81EFDF; color: #FFF; }
+  #menu a:after { display: none; }
+  #o-casal { margin-top: 280px; }
+  #o-casal .pamela, #o-casal .ricardo { width: 100%; margin: 60px 0 0; }
+  .endereco .info { width: 40%; margin-bottom: 30px; }
+  .endereco .mapa { width: 100%; }
+  .endereco.cerimonia .mapa { margin-left: 0; }
+  .endereco.recepcao .info { margin-left: 0; }
+  #lista-presentes, #form { width: 60%; float: none; margin: 0 auto 40px; } }
+@media screen and (max-width: 640px) { #padrinhos li { padding: 20px; }
+  #padrinhos li:nth-child(2n) { background-color: #FFF; }
+  #padrinhos li .image { width: 100%; margin: 30px 0; }
+  #padrinhos li .info { width: 100%; }
+  #padrinhos li.p-left .info { margin-left: 0; }
+  #padrinhos li.p-right .image { margin-left: 0; }
+  .endereco .info { width: 100%; } }
+@media screen and (max-width: 540px) { #frase p { font-size: 28px; font-size: 1.75rem; line-height: 36px; }
+  #lista-presentes, #form { width: 80%; } }
+@media screen and (max-width: 340px) { #lista-presentes, #form { width: 100%; }
+  #form input#email { width: 100%; margin-right: 0; }
+  #form input#telefone { width: 100%; } }

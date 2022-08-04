@@ -1,0 +1,77 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400";
+.center { width: 92%; max-width: 1140px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+@font-face { font-family: "Caviar Dreams"; src: url('/static/font/CaviarDreams.eot?1469467920') format('embedded-opentype'), url('/static/font/CaviarDreams.svg?1469467920') format('svg'), url('/static/font/CaviarDreams.ttf?1469467920') format('truetype'), url('/static/font/CaviarDreams.woff?1469467920') format('woff'); }
+#graus { margin: 50px 0; overflow: hidden; }
+
+#graus .col { float: left; width: 22.75%; margin-right: 3%; }
+
+#graus .col.ei { background-color: #F4B10A; }
+
+#graus .col.f1 { background-color: #B9CF2A; }
+
+#graus .col.f2 { background-color: #A5C538; }
+
+#graus .col.em { background-color: #0380BD; margin-right: 0; }
+
+#graus .col img { display: block; width: 100%; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+#graus .col h2 a { display: block; padding: 20px; color: #FFF; font-size: 20px; font-size: 1.25rem; font-style: italic; text-transform: uppercase; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.media { overflow: hidden; margin-bottom: 50px; }
+
+.media h2 { font-size: 30px; font-size: 1.875rem; text-transform: uppercase; padding-left: 50px; margin-bottom: 7px; line-height: 42px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; background: no-repeat left center; }
+
+#video { float: left; width: 74%; margin-right: 3%; }
+
+#video h2 { background-image: url(../img/ico-video.png); }
+
+#video iframe { display: block; width: 100%; height: 370px; }
+
+#revista { float: left; width: 23%; }
+
+#revista h2 { background-image: url(../img/ico-revista.png); }
+
+#revista img { display: block; width: 100%; }
+
+#tour { width: 100%; padding: 160px 0 100px; background: transparent; }
+
+#tour .wrapper { max-width: 440px; margin: 0 auto; text-align: center; color: #FFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#tour h2 { font-size: 39px; font-size: 2.4375rem; line-height: 1.2em; text-transform: uppercase; margin-bottom: 30px; }
+
+#tour a { display: block; padding: 30px 0; border: 2px solid #FFF; font-size: 20px; font-size: 1.25rem; font-weight: 400; text-transform: uppercase; max-width: 390px; margin: 0 auto; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; -webkit-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out; }
+
+#tour a:hover { background-color: #FFF; color: #5D5D5D; }
+
+#noticias { overflow: hidden; padding: 60px 0 75px; }
+
+#noticias h2 { text-align: center; text-transform: uppercase; font-size: 39px; font-size: 2.4375rem; margin-bottom: 40px; }
+
+#noticias li { float: left; width: 26.66%; margin-right: 10%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#noticias li:last-child { margin-right: 0; }
+
+#noticias li .data { font-size: 14px; font-size: 0.875rem; margin-bottom: 5px; }
+
+#noticias li img { display: block; width: 100%; margin-bottom: 20px; }
+
+#noticias li h3 { text-transform: uppercase; margin-bottom: 10px; font-size: 18px; font-size: 1.125rem; font-weight: 400; }
+
+#noticias li p { line-height: 1.2em; }
+
+@media screen and (max-width: 1030px) { #graus .col h2 a { font-size: 18px; font-size: 1.125rem; padding: 20px 10px; } }
+@media screen and (max-width: 860px) { #graus .col { width: 48.5%; margin-bottom: 3%; }
+  #graus .col.f1 { margin-right: 0; }
+  #video { width: 100%; margin: 0 0 30px; }
+  #revista { width: 100%; max-width: 263px; } }
+@media screen and (max-width: 790px) { #noticias li { float: none; width: 100%; max-width: 400px; margin: 0 auto 30px; }
+  #noticias li:last-child { margin-right: auto; } }
+@media screen and (max-width: 420px) { #graus .col { width: 100%; margin: 0 0 3%; }
+  #video h2 { font-size: 24px; font-size: 1.5rem; line-height: 1.2em; } }

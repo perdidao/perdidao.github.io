@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('avenirltstdbook.eot');
+    src: url('avenirltstdbook.eot') format('embedded-opentype'),
+         url('avenirltstdbook.woff2') format('woff2'),
+         url('avenirltstdbook.woff') format('woff'),
+         url('avenirltstdbook.ttf') format('truetype'),
+         url('avenirltstdbook.svg#Avenir Book') format('svg');
+}
+
+@font-face {
+    font-family: 'Avenir Roman';
+    src: url('avenirltstdroman.eot');
+    src: url('avenirltstdroman.eot') format('embedded-opentype'),
+         url('avenirltstdroman.woff2') format('woff2'),
+         url('avenirltstdroman.woff') format('woff'),
+         url('avenirltstdroman.ttf') format('truetype'),
+         url('avenirltstdroman.svg#Avenir Roman') format('svg');
+}

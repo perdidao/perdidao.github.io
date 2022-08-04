@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Klarna';
+  src: url('../fonts/KlarnaHeadline-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/KlarnaHeadline-Light.woff') format('woff'), url('../fonts/KlarnaHeadline-Light.ttf')  format('truetype'), url('../fonts/KlarnaHeadline-Light.svg#KlarnaHeadline-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Klarna';
+  src: url('../fonts/KlarnaHeadline-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/KlarnaHeadline-Bold.woff') format('woff'), url('../fonts/KlarnaHeadline-Bold.ttf')  format('truetype'), url('../fonts/KlarnaHeadline-Bold.svg#KlarnaHeadline-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Moon';
+  src: url('../fonts/Moon-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/Moon-Light.woff') format('woff'), url('../fonts/Moon-Light.ttf')  format('truetype'), url('../fonts/Moon-Light.svg#Moon-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Moon';
+  src: url('../fonts/Moon-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Moon-Bold.woff') format('woff'), url('../fonts/Moon-Bold.ttf')  format('truetype'), url('../fonts/Moon-Bold.svg#Moon-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

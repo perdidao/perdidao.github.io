@@ -1,0 +1,530 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 980px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+.col-esq, .col-cen, .col-dir { float: left; }
+
+.col1 .col-cen { width: 100%; }
+
+.col2-dir .col-esq { width: 23%; margin-right: 2%; }
+
+.col2-dir .col-dir { width: 75%; }
+
+.col2-esq .col-esq { width: 75%; margin-right: 2%; }
+
+.col2-esq .col-dir { width: 23%; }
+
+.col3 .col-esq { width: 23%; margin-right: 2%; }
+
+.col3 .col-cen { width: 50%; margin-right: 2%; }
+
+.col3 .col-dir { width: 23%; }
+
+label { display: block; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 15px; font-size: 0.9375rem; font-weight: 300; }
+
+label input[type='text'], label input[type='password'], label select, label textarea { width: 100%; padding: 5px; border: 1px solid #233741; color: #233741; font-size: 12px; font-size: 0.75rem; outline: none; margin-top: 5px; resize: none; font-family: Tahoma, Verdana, Segoe, sans-serif; }
+
+label input[type='text'], label select { height: 28px; }
+
+button { display: block; margin-top: 5px; padding: 5px 20px; border: 0; background-color: #C40C42; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; color: #FFF; font-size: 15px; font-size: 0.9375rem; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; cursor: pointer; }
+
+.btn-secundario { background-color: #233741; font-size: 13px; font-size: 0.8125rem; padding: 5px 10px; }
+
+.box-botoes { width: 100%; border-top: 1px solid #233741; padding-top: 5px; margin-top: 30px; }
+
+label.half { width: 50%; }
+
+.required { color: #F00; }
+
+table { border-collapse: collapse; width: 100%; }
+
+table th { background-color: #f0f0f0; color: #233741; text-transform: uppercase; }
+
+table td, table th { text-align: center; padding: 5px; border: 1px solid #233741; vertical-align: top; }
+
+body { font-size: 12px; font-size: 0.75rem; line-height: 1.3em; font-family: Tahoma, Verdana, Segoe, sans-serif; font-weight: 400; color: #233741; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+::-moz-selection { color: #FFF; background-color: #C40C42; }
+
+::selection { color: #FFF; background-color: #C40C42; }
+
+#conteudo { margin-top: 40px; }
+
+h2.titulo { background: url(../img/bkg-titulo.png) repeat-x center 7px; margin-bottom: 30px; }
+
+h2.titulo span { display: inline-block; padding-right: 10px; background-color: #FFF; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 26px; font-size: 1.625rem; text-transform: uppercase; }
+
+h2.titulo .box-btns { float: right; background-color: #FFF; margin-top: -15px; }
+
+h2.titulo .box-btns button { float: right; margin-left: 10px; }
+
+h3.subtitulo { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 18px; font-size: 1.125rem; text-transform: uppercase; letter-spacing: 0.06em; }
+
+strong { font-weight: 700; }
+
+.bto { text-decoration: none !important; width: 100%; text-align: center; padding: 5px 10px; background-color: #C40C42; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 13px; font-size: 0.8125rem; color: #FFF; }
+
+.ico-peq { padding-left: 25px; }
+
+.ico-peq.i-chat { background: url(../img/icones/ico-chat.png) no-repeat left 14px; }
+
+.ico-peq.i-atendimento { background: url(../img/icones/ico-atendimento.png) no-repeat 3px 12px; }
+
+.ico-peq.i-pedidos { background: url(../img/icones/ico-pedidos.png) no-repeat 2px 12px; }
+
+.ico-peq.i-desejos { background: url(../img/icones/ico-desejos.png) no-repeat 4px center; }
+
+.ico-peq.i-conta { background: url(../img/icones/ico-conta.png) no-repeat left 10px; }
+
+.ico-peq.i-boletim { background-image: url(../img/icones/ico-boletim.png); }
+
+.ico-peq.i-visualizados { background-image: url(../img/icones/ico-visualizados.png); }
+
+.ico-peq.i-carrinho { background-image: url(../img/icones/ico-carrinho.png); }
+
+.ico-peq.i-lista { background-image: url(../img/icones/ico-lista.png); }
+
+.ico-peq.i-calendario { background-image: url(../img/icones/ico-calendario.png); }
+
+#header { width: 100%; }
+
+#top-header { background-color: #233741; height: 40px; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; color: #FFF; font-size: 11px; font-size: 0.6875rem; text-transform: uppercase; }
+
+#login { display: block; float: left; line-height: 40px; }
+
+#login a { font-weight: 700; font-size: 12px; font-size: 0.75rem; }
+
+#user-nav { float: right; }
+
+#user-nav a { display: block; float: left; height: 40px; line-height: 40px; margin-left: 30px; }
+
+#logo { display: block; float: left; width: 211px; height: 102px; margin: 15px 0; background: url(../img/logo.png) no-repeat center center; }
+
+#televendas { float: left; height: 30px; margin: 50px 0 0 50px; padding-left: 36px; background: url(../img/icones/ico-televendas.png) no-repeat left center; }
+
+#televendas p { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 11px; font-size: 0.6875rem; text-transform: uppercase; }
+
+#televendas p strong { color: #C40C42; font-size: 14px; font-size: 0.875rem; font-weight: 700; }
+
+#pesquisa { float: left; width: 350px; margin: 45px 0 0 40px; height: 40px; border: 1px solid #233741; background-color: #FFF; }
+
+#campo-pesquisa { display: block; float: left; border: 0; width: 308px; height: 38px; padding: 0 10px; font-family: Tahoma, Verdana, Segoe, sans-serif; color: #233741; font-size: 11px; font-size: 0.6875rem; outline: none; }
+
+#pesquisar { display: block; float: right; width: 38px; height: 38px; background: transparent url(../img/icones/ico-pesquisa.png) no-repeat center center; border: 0; cursor: pointer; }
+
+#carrinho { float: right; width: 190px; height: 111px; margin-top: 15px; padding: 15px 0 0 50px; background: url(../img/bkg-carrinho.png) no-repeat center center; }
+
+#carrinho h2 { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; color: #C40C42; font-size: 17px; font-size: 1.0625rem; margin-bottom: 7px; }
+
+#carrinho h3 { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; font-size: 11px; font-size: 0.6875rem; }
+
+#carrinho .nota { font-size: 10px; font-size: 0.625rem; color: #C40C42; text-transform: uppercase; }
+
+#wrapper-menu { width: 100%; }
+
+#menu { width: 100%; height: 40px; padding: 2px 10px; background-color: #f0f0f0; border-radius: 5px; }
+
+#menu li { float: left; }
+
+#menu li a { display: block; height: 37px; padding: 0 34px; font-size: 16px; font-size: 1rem; line-height: 38px; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; border-left: 1px solid #cfcfcf; border-right: 1px solid #FFF; }
+
+#menu li:first-child a { border-left: 0; }
+
+#menu li:last-child a { border-right: 0; }
+
+.box-lateral { border: 1px solid #233741; margin-bottom: 20px; }
+
+.box-lateral h2 { display: block; width: 100%; background-color: #42535c; padding: 7px; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; font-size: 14px; font-size: 0.875rem; color: #FFF; }
+
+.box-lateral h2.ico-peq { padding-left: 30px; background-position: 7px center; background-repeat: no-repeat; }
+
+.box-lateral h2 a { display: inline; }
+
+.box-lateral a { text-decoration: underline; display: block; }
+
+.box-lateral .conteudo { padding: 10px; }
+
+.box-lateral .conteudo.inferior { text-align: right; }
+
+.box-lateral .conteudo ul li a { text-decoration: underline; }
+
+.box-lateral table { width: 100%; background-color: #F0F0F0; }
+
+.box-lateral table td { padding: 10px; }
+
+.box-lateral table td .excluir { display: block; width: 13px; height: 13px; background: url(../img/icones/ico-fechar.png) no-repeat center center; }
+
+.box-lateral .destaque { color: #C40C42; }
+
+#preferencias { border: 1px solid #9EA6AA; background-color: #F0F0F0; }
+
+#preferencias .superior { border-bottom: 1px solid #9EA6AA; padding: 5px; }
+
+#preferencias .inferior { padding: 5px; }
+
+#preferencias select { border: 1px solid #233741; color: #C40C42; background-color: #FFF; }
+
+#quantidade-itens { display: block; float: left; font-weight: 700; }
+
+#por-pagina { float: right; }
+
+#visualizar-como { float: left; }
+
+#visualizar-como a { color: #C40C42; text-decoration: underline; }
+
+#visualizar-como a.selecionado { font-weight: 700; color: #233741; text-decoration: none; }
+
+#mostrar { float: right; }
+
+#lista-produtos { margin-top: 20px; }
+
+#lista-produtos li { float: left; width: 33.3%; border-right: 1px solid #f0f0f0; padding: 0 5px; margin-bottom: 10px; }
+
+#lista-produtos li:nth-child(3n) { border: 0; }
+
+#lista-produtos li .box-imagem { width: 100%; margin-bottom: 5px; }
+
+#lista-produtos li .box-imagem img { display: block; width: 100%; }
+
+#lista-produtos li h3 { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 14px; font-size: 0.875rem; font-weight: 700; }
+
+#lista-produtos li p { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 12px; font-size: 0.75rem; font-weight: 300; }
+
+#lista-produtos li p.preco { margin: 10px 0; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 17px; font-size: 1.0625rem; font-weight: 700; color: #C40C42; }
+
+#lista-produtos li a { text-decoration: underline; display: block; margin-bottom: 5px; }
+
+#rodape { margin-top: 100px; }
+
+#interacao { width: 100%; padding: 15px 0; background-color: #233741; color: #FFF; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; }
+
+#interacao h2 { font-size: 22px; font-size: 1.375rem; text-transform: uppercase; font-weight: 700; }
+
+#interacao span { text-transform: none; font-size: 18px; font-size: 1.125rem; font-weight: 300; }
+
+#newsletter { float: left; width: 48%; margin-right: 4%; }
+
+#newsletter label { float: left; margin: 23px 10px 0 0; }
+
+#newsletter label#newsletter-box { margin-top: 10px; width: 270px; }
+
+#newsletter-box input { height: 32px; float: left; width: 220px; border: 0; }
+
+#enviar-newsletter { width: 50px; height: 32px; float: left; background: #C40C42 url(../img/icones/ico-mail.png) no-repeat center center; }
+
+#social { float: left; width: 48%; }
+
+#box-facebook { width: 360px; height: 32px; padding: 6px; margin-top: 15px; background-color: #FFF; float: left; }
+
+#social a.ico-soc { display: block; float: left; width: 22px; height: 22px; margin: 20px 0 0 10px; }
+
+#social a.ico-soc.i-facebook { background: url(../img/icones/ico-facebook.png) no-repeat center center; }
+
+#social a.ico-soc.i-twitter { background: url(../img/icones/ico-twitter.png) no-repeat center center; }
+
+#social a.ico-soc.i-gplus { background: url(../img/icones/ico-gplus.png) no-repeat center center; }
+
+.links { float: left; margin: 30px 75px 0 0; }
+
+.links.last { margin-right: 0; }
+
+.links h3 { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 16px; font-size: 1rem; text-transform: uppercase; color: #233741; }
+
+.links ul { margin-top: 5px; }
+
+.links ul li { color: #C40C42; list-style: disc; margin-left: 15px; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; margin-bottom: 5px; }
+
+.links ul li a { color: #233741; font-size: 13px; font-size: 0.8125rem; }
+
+.informacoes { float: left; width: 31.33%; margin: 50px 3% 0 0; }
+
+.informacoes.last { margin-right: 0; }
+
+.informacoes h3 { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; padding-bottom: 5px; border-bottom: 1px solid #d2d2d2; margin-bottom: 10px; }
+
+#endereco { text-align: center; background: url(../img/bkg-endereco.png) repeat-x center center; color: #CACACA; font-size: 7px; font-size: 0.4375rem; margin-top: 20px; }
+
+#endereco span { display: inline-block; background-color: #FFF; padding: 0 10px; }
+
+#assinatura { display: block; width: 520px; height: 20px; margin: 20px auto; background: url(../img/assinatura.png) no-repeat center center; }
+
+#busca legend { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 18px; font-size: 1.125rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 20px; }
+
+#busca .form-linha { width: 100%; min-height: 30px; margin-bottom: 12px; }
+
+#busca .form-linha label { float: left; min-width: 100px; line-height: 30px; }
+
+#busca .form-linha input, #busca .form-linha textarea { float: left; width: 300px; padding: 5px; border: 1px solid #233741; color: #233741; font-size: 12px; font-size: 0.75rem; outline: none; margin-top: 5px; resize: none; font-family: Tahoma, Verdana, Segoe, sans-serif; }
+
+#busca .form-linha textarea { height: 70px; }
+
+#busca .form-linha.linha-dupla input { width: 125px; margin-right: 10px; }
+
+#busca .form-linha.linha-dupla span { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 15px; font-size: 0.9375rem; font-weight: 300; display: block; float: left; text-transform: uppercase; margin-top: 16px; }
+
+#buscar { float: right; }
+
+#prod-imagem { float: left; width: 48%; padding: 20px; border: 1px solid #233741; }
+
+#prod-imagem img { display: block; width: 100%; }
+
+#prod-info { float: left; margin-left: 2%; width: 50%; }
+
+#prod-info h3 { font-size: 18px; font-size: 1.125rem; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; margin-bottom: 30px; }
+
+#prod-info a { text-decoration: underline; display: block; }
+
+#prod-info .disponibilidade { margin: 20px 0; }
+
+#prod-info .disponibilidade span { color: #C40C42; }
+
+#prod-info .preco { font-size: 14px; font-size: 0.875rem; font-weight: 700; color: #C40C42; margin-bottom: 25px; }
+
+#prod-info .separador { display: block; width: 100%; height: 1px; background-color: #233741; margin: 15px 0; }
+
+#prod-info h4 { font-size: 14px; font-size: 0.875rem; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; margin-bottom: 10px; }
+
+#prod-extra { margin-top: 30px; }
+
+#prod-extra h3 { font-size: 18px; font-size: 1.125rem; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; margin-bottom: 10px; }
+
+#prod-extra .prod-descricao { padding: 10px; border: 1px solid #233741; margin-bottom: 30px; }
+
+.bt-adc-tags { display: block; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; padding-left: 20px; background: url(../img/icones/ico-tags.png) no-repeat left center; margin-bottom: 5px; }
+
+#prod-extra .form-linha { width: 100%; }
+
+#nova-tag { float: left; width: 325px; height: 30px; }
+
+#adc-tag { float: left; display: block; margin: 0 0 0 10px; height: 30px; line-height: 20px; background-color: #233741; }
+
+#amigo legend { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 18px; font-size: 1.125rem; display: block; background: url(../img/icones/ico-amigos.png) no-repeat left center; padding: 5px 0 5px 25px; text-transform: uppercase; }
+
+#amigo .half { width: 48%; margin-right: 4%; }
+
+#amigo .half.left { margin-right: 0; }
+
+#amigo .destinatario .half { float: left; }
+
+#amigo label { margin-bottom: 10px; }
+
+#amigo textarea { height: 120px; }
+
+#amigo .box-botoes button { float: right; }
+
+#contato legend { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 18px; font-size: 1.125rem; display: block; text-transform: uppercase; margin-bottom: 20px; }
+
+#contato .half { width: 48%; margin-right: 4%; float: left; }
+
+#contato .half.left { margin-right: 0; }
+
+#contato label { margin-bottom: 10px; }
+
+#contato textarea { height: 120px; }
+
+#contato .box-botoes button { float: right; }
+
+.sucesso p { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 15px; font-size: 0.9375rem; font-weight: 300; line-height: 19px; margin-top: 30px; }
+
+.sucesso p a { color: #C40C42; text-decoration: underline; }
+
+.sucesso button { float: right; }
+
+h2 .btn-continuar { background-color: #f0f0f0; color: #233741; font-weight: 300; }
+
+h2 .btn-finalizar { font-weight: 700; }
+
+.tabela-carrinho { border-collapse: collapse; width: 100%; }
+
+.tabela-carrinho th { background-color: #f0f0f0; color: #233741; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 12px; font-size: 0.75rem; text-transform: uppercase; }
+
+.tabela-carrinho td, .tabela-carrinho th { text-align: center; padding: 5px; border: 1px solid #233741; vertical-align: top; }
+
+.tabela-carrinho td { min-height: 100px; }
+
+.tabela-carrinho td.info-produto { text-align: left; padding: 10px; }
+
+#remover { display: block; width: 15px; height: 15px; margin: 0 auto; background: url(../img/icones/ico-remover.png) no-repeat center center; }
+
+.tabela-carrinho td img { border: 1px solid #EEE; }
+
+.tabela-carrinho td h4 a { color: #C40C42; font-weight: bold; text-decoration: underline; }
+
+.tabela-carrinho .preco { color: #C40C42; }
+
+.tabela-carrinho .quantidade { width: 40px; text-align: center; color: #C40C42; border: 1px solid #233741; }
+
+.tabela-carrinho .subtotal { color: #C40C42; }
+
+.box-frete { width: 25%; }
+
+.box-desconto { width: 35%; }
+
+.box-frete, .box-desconto { float: left; margin: 10px 2.5% 0 0; border: 1px solid #233741; padding: 20px; }
+
+.box-frete h3, .box-desconto h3 { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; text-transform: uppercase; font-size: 15px; font-size: 0.9375rem; padding: 4px 0 4px 25px; background-repeat: no-repeat; background-position: left center; }
+
+.box-frete h3 { background-image: url(../img/icones/ico-frete.png); }
+
+.box-desconto h3 { background-image: url(../img/icones/ico-cupom.png); }
+
+.box-frete p, .box-desconto p { margin-bottom: 10px; }
+
+.box-frete input, .box-desconto input { float: left; height: 28px; border: 1px solid #233741; }
+
+.box-desconto input { width: 70%; }
+
+.box-frete button, .box-desconto button { font-size: 10px; font-size: 0.625rem; float: left; margin: 0px 0 0 10px; }
+
+.box-total { float: left; margin: 10px 0 0 0; border: 1px solid #233741; padding: 13px 20px; width: 35%; }
+
+.box-total ul { text-align: right; width: 100%; }
+
+.box-total ul li { width: 60%; float: right; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-size: 15px; font-size: 0.9375rem; margin-bottom: 10px; }
+
+.box-total ul li strong { display: block; float: left; width: 50%; }
+
+.box-total ul li span { display: block; float: left; width: 50%; }
+
+.box-total ul li.total { text-transform: uppercase; font-weight: 700; font-size: 17px; font-size: 1.0625rem; color: #C40C42; }
+
+.box-total button { float: left; }
+
+.box-total .btn-continuar { background-color: #f0f0f0; color: #233741; font-weight: 300; font-size: 14px; font-size: 0.875rem; padding: 5px 10px; }
+
+.box-total .btn-finalizar { font-weight: 700; font-size: 14px; font-size: 0.875rem; padding: 5px 10px; margin-left: 10px; }
+
+.relacionados { margin-top: 40px; }
+
+#lista-produtos.compre-tambem li { float: left; width: 25%; border-right: 1px solid #f0f0f0; padding: 0 5px; margin-bottom: 10px; }
+
+#lista-produtos.compre-tambem li:nth-child(3n) { border-right: 1px solid #f0f0f0; }
+
+#lista-produtos.compre-tambem li:nth-child(4n) { border: 0; }
+
+.login .col-esq { width: 48%; float: left; padding: 30px 2% 30px 0; margin: 50px 2% 0 0; border-right: 1px solid #233741; }
+
+.login .col-dir { width: 48%; float: left; margin-top: 50px; padding: 30px 0; }
+
+.login .interno { width: 90%; margin: 30px auto; }
+
+.login .col-esq h2, .login .col-dir h2 { font-size: 18px; font-size: 1.125rem; text-transform: uppercase; margin-bottom: 10px; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; padding: 5px 0 5px 30px; }
+
+.login h2.cadastro { background: url(../img/icones/ico-cadastro.png) no-repeat left center; }
+
+.login h2.login { background: url(../img/icones/ico-login.png) no-repeat left center; }
+
+.login p { font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; font-weight: 300; font-size: 15px; font-size: 0.9375rem; line-height: 19px; letter-spacing: 0.04em; }
+
+.login button { float: right; margin-top: 20px; }
+
+.login label { margin-top: 5px; }
+
+#criar-conta { margin-top: 90px; }
+
+#esqueceu-senha { float: left; }
+
+.cadastro .col-esq { width: 48%; float: left; padding-right: 2%; margin-right: 2%; border-right: 1px solid #233741; }
+
+.cadastro .col-dir { width: 48%; float: left; }
+
+.cadastro .col-esq h2, .cadastro .col-dir h2 { font-size: 18px; font-size: 1.125rem; text-transform: uppercase; margin-bottom: 10px; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; }
+
+.cadastro label { margin-bottom: 10px; }
+
+.cadastro .half { width: 48%; margin-right: 4%; }
+
+.cadastro .half.left { margin-right: 0; }
+
+.cadastro #enviar { float: right; }
+
+.menu-conta { border-color: #a7afb3; }
+
+.menu-conta h2 { background-color: #C40C42; }
+
+.menu-conta li a { text-decoration: none !important; display: block; padding: 5px 0; border-bottom: 1px solid #a7afb3; }
+
+.menu-conta li:last-child a { border: 0; }
+
+.menu-conta li a.active { font-weight: bold; }
+
+.box-painel { margin-top: 30px; }
+
+.box-painel .titulos { height: 30px; }
+
+.box-painel .titulos h2 { display: block; float: left; font-size: 18px; font-size: 1.125rem; text-transform: uppercase; font-family: "Oswald", "Arial Narrow", Helvetica, Arial, sans-serif; padding: 5px 0 5px 25px; }
+
+.box-painel .titulos a { float: right; color: #C40C42; text-decoration: underline; }
+
+.pedidos th { font-weight: bold; }
+
+.pedidos em { font-style: italic; }
+
+.pedidos .ver { color: #C40C42; text-decoration: underline; }
+
+.pedidos .recomprar { font-weight: bold; text-decoration: underline; }
+
+.tit-pedidos h2 { background: url(../img/icones/ico-calendario.png) no-repeat left center; }
+
+.tit-conta h2 { background: url(../img/icones/ico-login.png) no-repeat left center; }
+
+.box-info { float: left; width: 48%; margin: 0 4% 40px 0; }
+
+.box-info.left { margin-right: 0; }
+
+.box-info a { color: #C40C42; text-decoration: underline; }
+
+.box-info .box-titulo { padding-bottom: 5px; border-bottom: 1px solid #233741; margin-bottom: 10px; }
+
+.box-info .box-titulo strong { text-align: left; }
+
+.box-info .box-titulo a { float: right; }
+
+.box-info.box-full { width: 100%; margin-right: 0; }
+
+.endereco { float: left; width: 48%; margin-right: 4%; }
+
+.endereco.left { margin-right: 0; }
+
+.endereco h3 { text-transform: uppercase; font-weight: bold; }
+
+.endereco p { margin-bottom: 5px; }
+
+@media screen and (max-width: 980px) { .center { width: 96%; }
+  #top-header, #menu { height: auto; } }
+@media screen and (max-width: 780px) { #logo { float: none; margin: 15px auto; }
+  #televendas { margin: 50px 0 0 0; }
+  #carrinho { float: left; }
+  .col3 .col-esq { width: 23%; margin-right: 2%; }
+  .col3 .col-cen { width: 75%; margin-right: 0; }
+  .col3 .col-dir { display: none; }
+  #newsletter { float: left; width: 100%; margin-right: 0; }
+  #social { float: left; width: 100%; margin-top: 20px; } }
+@media screen and (max-width: 580px) { .col3 .col-esq { display: none; }
+  .col3 .col-cen { width: 100%; } }

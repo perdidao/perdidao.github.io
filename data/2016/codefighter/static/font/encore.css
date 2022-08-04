@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Encore Sans';
+  src: url('PFEncoreSansPro-Light.eot?#iefix') format('embedded-opentype'),  url('PFEncoreSansPro-Light.otf')  format('opentype'),
+	     url('PFEncoreSansPro-Light.woff') format('woff'), url('PFEncoreSansPro-Light.ttf')  format('truetype'), url('PFEncoreSansPro-Light.svg#PFEncoreSansPro-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encore Sans';
+  src: url('PFEncoreSansPro-Medium.eot?#iefix') format('embedded-opentype'),  url('PFEncoreSansPro-Medium.otf')  format('opentype'),
+	     url('PFEncoreSansPro-Medium.woff') format('woff'), url('PFEncoreSansPro-Medium.ttf')  format('truetype'), url('PFEncoreSansPro-Medium.svg#PFEncoreSansPro-Medium') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encore Sans';
+  src: url('PFEncoreSansPro-Bold.eot?#iefix') format('embedded-opentype'),  url('PFEncoreSansPro-Bold.otf')  format('opentype'),
+	     url('PFEncoreSansPro-Bold.woff') format('woff'), url('PFEncoreSansPro-Bold.ttf')  format('truetype'), url('PFEncoreSansPro-Bold.svg#PFEncoreSansPro-Bold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Encore Sans';
+  src: url('PFEncoreSansPro-Black.eot?#iefix') format('embedded-opentype'),  url('PFEncoreSansPro-Black.otf')  format('opentype'),
+	     url('PFEncoreSansPro-Black.woff') format('woff'), url('PFEncoreSansPro-Black.ttf')  format('truetype'), url('PFEncoreSansPro-Black.svg#PFEncoreSansPro-Black') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

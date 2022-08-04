@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'FrutigerLTStd-BoldCn';
+  src: url('../fonts/FrutigerLTStd-BoldCn.eot?#iefix') format('embedded-opentype'),  url('../fonts/FrutigerLTStd-BoldCn.otf')  format('opentype'),
+	     url('../fonts/FrutigerLTStd-BoldCn.woff') format('woff'), url('../fonts/FrutigerLTStd-BoldCn.ttf')  format('truetype'), url('../fonts/FrutigerLTStd-BoldCn.svg#FrutigerLTStd-BoldCn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FrutigerLT-LightCn';
+  src: url('../fonts/FrutigerLT-LightCn.eot?#iefix') format('embedded-opentype'),  url('../fonts/FrutigerLT-LightCn.woff') format('woff'), url('../fonts/FrutigerLT-LightCn.ttf')  format('truetype'), url('../fonts/FrutigerLT-LightCn.svg#FrutigerLT-LightCn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'UniversLT-CondensedBold';
+  src: url('../fonts/UniversLT-CondensedBold.eot?#iefix') format('embedded-opentype'),  url('../fonts/UniversLT-CondensedBold.woff') format('woff'), url('../fonts/UniversLT-CondensedBold.ttf')  format('truetype'), url('../fonts/UniversLT-CondensedBold.svg#UniversLT-CondensedBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

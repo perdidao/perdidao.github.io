@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Brandon';
+  src: url('BrandonGrotesque-Light.eot?#iefix') format('embedded-opentype'),  url('BrandonGrotesque-Light.otf')  format('opentype'),
+	     url('BrandonGrotesque-Light.woff') format('woff'), url('BrandonGrotesque-Light.ttf')  format('truetype'), url('BrandonGrotesque-Light.svg#BrandonGrotesque-Light') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('BrandonGrotesque-Bold.eot?#iefix') format('embedded-opentype'),  url('BrandonGrotesque-Bold.otf')  format('opentype'),
+	     url('BrandonGrotesque-Bold.woff') format('woff'), url('BrandonGrotesque-Bold.ttf')  format('truetype'), url('BrandonGrotesque-Bold.svg#BrandonGrotesque-Bold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}

@@ -1,0 +1,140 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.center { width: 92%; max-width: 1140px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; outline: none; }
+
+@font-face { font-family: "Caviar Dreams"; src: url('/static/font/CaviarDreams.eot?1469467920') format('embedded-opentype'), url('/static/font/CaviarDreams.svg?1469467920') format('svg'), url('/static/font/CaviarDreams.ttf?1469467920') format('truetype'), url('/static/font/CaviarDreams.woff?1469467920') format('woff'); }
+body { font-weight: 300; font-size: 17px; font-size: 1.0625rem; font-family: "Open Sans", Helvetica, Arial, sans-serif; color: #5D5D5D; }
+
+::-moz-selection { color: #FFF; background-color: #B9CF2A; }
+
+::selection { color: #FFF; background-color: #B9CF2A; }
+
+#btn-menu { display: none; width: 50px; height: 50px; position: fixed; z-index: 11; top: 0; left: 0; background-color: #F4B10A; }
+#btn-menu span, #btn-menu:before, #btn-menu:after { content: " "; display: block; width: 30px; height: 2px; background-color: #FFF; transform: rotate(0); position: absolute; left: 10px; transition: all 300ms ease-in-out; }
+#btn-menu:before { top: 15px; }
+#btn-menu span { top: 24px; opacity: 1; }
+#btn-menu:after { bottom: 15px; }
+#btn-menu.active span { opacity: 0; top: 25px; transform: rotate(90deg); }
+#btn-menu.active:before { width: 34px; top: 25px; left: 8px; transform: rotate(45deg); }
+#btn-menu.active:after { width: 34px; bottom: 24px; left: 8px; transform: rotate(-45deg); }
+
+#main-nav { position: fixed; z-index: 10; width: 100%; overflow: hidden; background: rgba(0, 0, 0, 0.2); padding: 7px 0; }
+
+#linguas { float: right; }
+
+#linguas li { float: left; margin-left: 5px; }
+
+#linguas li a { display: block; width: 20px; height: 20px; background: no-repeat center center; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; -webkit-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out; }
+
+#linguas li a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+#linguas li a.en { background-image: url(../img/en.png); }
+
+#linguas li a.br { background-image: url(../img/br.png); }
+
+#menu { float: right; }
+
+#menu li { display: inline-block; margin-right: 30px; }
+
+#menu li a { font-size: 14px; font-size: 0.875rem; text-transform: uppercase; color: #FFF; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; -webkit-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out; }
+
+#menu li a:hover, #menu li a.active { color: #F4B10A; }
+
+#header { width: 100%; min-height: 745px; background: url(../img/topo.jpg) repeat center top; padding-top: 1px; }
+
+#logo { width: 159px; height: 108px; background: url(../img/logo.png) no-repeat center center; margin: 40px 0 0; text-indent: -9999em; overflow: hidden; }
+
+#header .wrapper { max-width: 510px; margin-top: 230px; color: #0380BD; text-transform: uppercase; font-family: "Caviar Dreams", Helvetica, Arial, sans-serif; }
+
+#header h2 { font-size: 32px; font-size: 2rem; line-height: 1.2em; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#header h2 span { display: block; font-size: 67px; font-size: 4.1875rem; line-height: 1.2em; }
+
+#header p { text-align: right; font-style: italic; font-weight: 600; font-size: 16px; font-size: 1rem; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50); opacity: 0.5; margin-right: 30px; }
+
+#footer { width: 100%; background-color: #9FBB18; color: #FFF; padding: 60px 0 40px; overflow: hidden; font-weight: 400; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+#footer .col { float: left; width: 25%; }
+
+#footer h2 { font-size: 24px; font-size: 1.5rem; text-transform: uppercase; margin-bottom: 30px; }
+
+#footer p { font-size: 14px; font-size: 0.875rem; line-height: 24px; padding-left: 15px; background: no-repeat left 8px; }
+
+#footer a { -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; -webkit-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out; }
+
+#footer a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+
+#footer .fone { background-image: url(../img/ico-telefone.png); }
+
+#footer .mail { background-image: url(../img/ico-mail.png); }
+
+#footer .endereco { background-image: url(../img/ico-endereco.png); }
+
+#footer .cambridge { display: block; margin-top: 20px; }
+
+#footer .links li { font-size: 15px; font-size: 0.9375rem; text-transform: uppercase; margin-bottom: 25px; }
+
+#footer .social { margin-bottom: 15px; }
+
+#footer .social li { display: inline-block; margin-right: 20px; }
+
+#footer .social li a { display: block; height: 17px; background: no-repeat center center; }
+
+#footer .social li a.fb { width: 10px; background-image: url(../img/ico-facebook.png); }
+
+#footer .social li a.in { width: 18px; background-image: url(../img/ico-instagram.png); }
+
+#footer .social li a.yt { width: 24px; background-image: url(../img/ico-youtube.png); }
+
+#copy { width: 100%; padding: 20px 0; background-color: #89A90E; color: #FFF; font-size: 14px; font-size: 0.875rem; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; overflow: hidden; }
+
+#copy .copy { float: left; }
+
+#copy .dev { float: right; line-height: 19px; }
+
+#copy .dev a { display: inline-block; height: 19px; background: no-repeat center center; text-indent: -9999em; overflow: hidden; margin-left: 8px; }
+
+#copy .dev .codie { width: 41px; background-image: url(../img/codie.png); -moz-transform: translatey(8px); -ms-transform: translatey(8px); -webkit-transform: translatey(8px); transform: translatey(8px); }
+
+#copy .dev .idee { width: 38px; background-image: url(../img/idee.png); -moz-transform: translatey(5px); -ms-transform: translatey(5px); -webkit-transform: translatey(5px); transform: translatey(5px); }
+
+@media screen and (max-width: 860px) { #footer .col { width: 50%; margin-bottom: 30px; } }
+@media screen and (max-width: 790px) { #btn-menu { display: block; }
+  #main-nav { display: none; }
+  #linguas { width: 100%; text-align: center; margin-bottom: 20px; }
+  #linguas li { display: inline-block; float: none; margin: 0 5px; }
+  #menu { width: 100%; text-align: center; }
+  #menu li { display: block; margin: 0 0 10px; } }
+@media screen and (max-width: 560px) { #header h2 { font-size: 26px; font-size: 1.625rem; }
+  #header h2 span { font-size: 46px; font-size: 2.875rem; }
+  #footer .col { width: 100%; text-align: center; }
+  #footer p { display: inline-block; }
+  #footer .social li { margin: 0 10px; }
+  #copy { text-align: center; }
+  #copy .copy { width: 100%; font-size: 13px; font-size: 0.8125rem; margin-bottom: 10px; }
+  #copy .dev { width: 100%; line-height: 19px; } }
+@media screen and (max-width: 360px) { #header .wrapper { margin-top: 230px; }
+  #header h2 { font-size: 20px; font-size: 1.25rem; }
+  #header h2 span { font-size: 40px; font-size: 2.5rem; } }

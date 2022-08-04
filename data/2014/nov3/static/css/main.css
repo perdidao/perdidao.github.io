@@ -1,0 +1,261 @@
+@import url(../fonts/brandon.css);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { max-width: 80%; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+body { font-size: 22px; font-size: 1.375rem; font-family: "Regular", Helvetica, Arial, Sans-serif; color: #FFF; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; min-width: 640px; }
+
+::-moz-selection { color: #FFF; background-color: #FF6C00; }
+
+::selection { color: #FFF; background-color: #FF6C00; }
+
+#header { width: 100%; height: 880px; background: #FF6C00 url(../img/bkg-topo.jpg) no-repeat center center; position: relative; padding-bottom: 0; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#header.active { background-image: url(../img/bkg-topo-hv.jpg); }
+
+#header h1 { float: left; margin-top: 130px; font-size: 80px; font-size: 5rem; line-height: 100px; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#header h1.floated { margin-left: 23%; }
+
+#btn-menu { display: block; float: left; width: 60px; height: 50px; position: absolute; z-index: 20; top: 70px; left: 10%; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+#btn-menu span, #btn-menu:before, #btn-menu:after { content: " "; display: block; width: 100%; height: 10px; background-color: #FFF; -moz-transform: rotate(0); -ms-transform: rotate(0); -webkit-transform: rotate(0); transform: rotate(0); position: absolute; left: 0; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+#btn-menu:before { top: 0; }
+#btn-menu span { top: 20px; opacity: 1; }
+#btn-menu:after { bottom: 0; }
+#btn-menu.active { left: 20%; }
+#btn-menu.active span { opacity: 0; top: 25px; -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -webkit-transform: rotate(90deg); transform: rotate(90deg); }
+#btn-menu.active:before { top: 20px; left: 1px; -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+#btn-menu.active:after { bottom: 20px; left: 1px; -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+#logo { float: right; margin-top: 70px; width: 132px; height: 64px; background: transparent url(../img/nov3.png) no-repeat center center; }
+
+#box-menu { display: block; height: 100%; padding-right: 20px; position: absolute; z-index: 15; top: 0; left: -25%; width: 25%; border-right: 1px solid #FFF; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#box-menu.opened { left: 0; }
+
+#menu { text-align: right; padding-top: 200px; }
+
+#menu li a { font-size: 40px; font-size: 2.5rem; line-height: 50px; font-family: "Light", Helvetica, Arial, Sans-serif; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#menu li a:hover { font-weight: bold; }
+
+#box-menu .social { float: right; }
+
+#projetos header { height: 200px; }
+
+#projetos header h2 { display: block; width: 100%; float: left; color: #777; text-transform: uppercase; font-size: 30px; font-size: 1.875rem; margin-top: 88px; }
+
+#projetos header h2 span, #projetos header h2 em { float: left; }
+
+#projetos header h2 .line { display: block; margin: 14px 10px 0; width: 30%; height: 2px; background-color: #777; }
+
+#projetos header h2 .scroll { display: block; margin: -23px 10px 0 0; width: 33px; height: 71px; background: transparent url(../img/scroll.png) no-repeat center center; }
+
+#projetos header h2 strong { color: #FF6C00; font-family: "Bold", "Arial Black", Helvetica, Sans-serif; }
+
+#lista-projetos { width: 100%; }
+
+#lista-projetos li { float: left; width: 20%; }
+
+#lista-projetos li a { display: block; position: relative; overflow: hidden; }
+
+#lista-projetos li a img { display: block; width: 100%; -moz-transition: all 600ms ease-in-out; -o-transition: all 600ms ease-in-out; -webkit-transition: all 600ms ease-in-out; transition: all 600ms ease-in-out; }
+
+#lista-projetos li a:hover img { -moz-transform: scale(1.1); -ms-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1); }
+
+#lista-projetos li a .hover { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding-top: 50%; background: #000 url(../img/hvr-projetos.jpg) repeat center center; text-align: center; }
+
+#lista-projetos li a .hover span { display: block; margin: 0 auto; width: 68px; height: 34px; background: transparent url(../img/ico-olho.png) no-repeat center center; }
+
+#lista-projetos li a .hover h3 { font-size: 30px; font-size: 1.875rem; text-transform: uppercase; font-family: "Bold", "Arial Black", Helvetica, Sans-serif; margin-top: 20px; }
+
+#lista-projetos li a .hover p { font-size: 22px; font-size: 1.375rem; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; margin-top: 15px; }
+
+#sobre { width: 100%; }
+
+#sobre header { height: 150px; border-bottom: 1px solid #DDD; text-align: center; }
+
+#sobre header h2 { font-size: 30px; font-size: 1.875rem; line-height: 150px; font-family: "Bold", "Arial Black", Helvetica, Sans-serif; color: #777; text-transform: uppercase; }
+
+#sobre .subtitle { border-bottom: 1px solid #DDD; text-align: center; padding: 45px 0; }
+
+#sobre .subtitle p { font-size: 36px; font-size: 2.25rem; line-height: 45px; color: #777; font-family: "Light", Helvetica, Arial, Sans-serif; }
+
+#sobre .bio { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 22px; font-size: 1.375rem; line-height: 35px; color: #777; text-align: center; padding: 140px 0; margin: 0; }
+
+#fotos { width: 100%; }
+
+#fotos li { float: left; width: 20%; position: relative; overflow: hidden; }
+
+#fotos li.double { width: 40%; }
+
+#fotos li a .hover { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent url(../img/hvr-fotos.png) no-repeat center center; }
+
+#fotos li a img { display: block; width: 100%; -moz-transition: all 600ms ease-in-out; -o-transition: all 600ms ease-in-out; -webkit-transition: all 600ms ease-in-out; transition: all 600ms ease-in-out; }
+
+#fotos li a:hover img { -moz-transform: scale(1.05); -ms-transform: scale(1.05); -webkit-transform: scale(1.05); transform: scale(1.05); }
+
+#servicos { width: 100%; }
+
+#servicos header { width: 100%; height: 150px; border-bottom: 1px solid #DDD; text-align: center; }
+
+#servicos header h2 { font-size: 30px; font-size: 1.875rem; line-height: 150px; font-family: "Bold", "Arial Black", Helvetica, Sans-serif; color: #777; text-transform: uppercase; }
+
+#serv-left { float: left; width: 41%; margin: 30px 4% 0 0; }
+
+#serv-right { float: right; width: 55%; margin-top: 50px; }
+
+#serv-right p { max-width: 480px; color: #777; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 22px; font-size: 1.375rem; line-height: 36px; margin-bottom: 30px; }
+
+#areas { width: 100%; margin-top: 30px; }
+
+#areas li { float: left; width: 33.33%; background-color: #FF6C00; height: 480px; padding-top: 110px; text-align: center; border-right: 1px solid #bd5801; }
+
+#areas li span.ico-g { display: block; width: 157px; height: 157px; margin: 0 auto; }
+
+#areas li h3 { font-size: 40px; font-size: 2.5rem; margin-top: 30px; }
+
+#clientes { width: 100%; }
+
+#clientes header { width: 100%; height: 150px; background-color: #FF6C00; border-bottom: 1px solid #FFF; border-top: 1px solid #FFF; text-align: center; }
+
+#clientes header h2 { font-size: 30px; font-size: 1.875rem; line-height: 150px; font-family: "Bold", "Arial Black", Helvetica, Sans-serif; color: #FFF; text-transform: uppercase; }
+
+#clientes .subtitle { text-align: center; padding: 45px 0; background-color: #FF6C00; }
+
+#clientes .subtitle p { font-size: 36px; font-size: 2.25rem; line-height: 45px; color: #FFF; font-family: "Light", Helvetica, Arial, Sans-serif; }
+
+#marcas { width: 100%; }
+
+#marcas li { float: left; width: 20%; position: relative; border: 1px solid #b3b3b3; border-top: 0; border-right: 0; }
+
+#marcas li img { display: block; width: 100%; }
+
+#marcas li .hover { display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding-top: 30%; background: #000 url(../img/hvr-projetos.jpg) repeat center center; text-align: center; }
+
+#marcas li .hover h3 { font-size: 30px; font-size: 1.875rem; text-transform: uppercase; font-family: "Bold", "Arial Black", Helvetica, Sans-serif; margin-top: 20px; }
+
+#marcas li .hover a { display: block; width: 190px; height: 45px; margin: 5px auto 0; color: #FFF; border: 2px solid #FFF; border-radius: 30px; text-transform: uppercase; font-size: 18px; font-size: 1.125rem; line-height: 45px; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#marcas li .hover a:hover { background-color: #FFF; color: #000; }
+
+#footer { width: 100%; padding: 250px 0; background-color: #FF6C00; }
+
+#footer h2 { font-size: 30px; font-size: 1.875rem; text-transform: uppercase; }
+
+#footer h2 em { display: block; float: left; }
+
+#footer h2 span { display: block; float: left; width: 400px; height: 2px; background-color: #FFF; margin: 13px 0 0 10px; }
+
+#footer h3 { margin-top: 50px; font-size: 80px; font-size: 5rem; line-height: 100px; font-family: "Light", Helvetica, Arial, Sans-serif; }
+
+#footer address { margin-top: 50px; font-size: 40px; font-size: 2.5rem; line-height: 50px; font-family: "Light", Helvetica, Arial, Sans-serif; }
+
+.social { margin-top: 50px; }
+
+#footer .social h2 { display: block; float: left; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 40px; font-size: 2.5rem; line-height: 50px; text-transform: none; font-weight: 600; }
+
+.social ul { float: left; margin: 7px 0 0 20px; }
+
+.social li { float: left; margin-right: 10px; }
+
+.social li a { display: block; width: 40px; height: 40px; background-repeat: no-repeat; background-position: center center; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+.social li a.ico-facebook { background-image: url(../img/ico-facebook.png); }
+
+.social li a.ico-facebook:hover { background-image: url(../img/ico-facebook-hv.png); }
+
+.social li a.ico-twitter { background-image: url(../img/ico-twitter.png); }
+
+.social li a.ico-twitter:hover { background-image: url(../img/ico-twitter-hv.png); }
+
+.social li a.ico-instagram { background-image: url(../img/ico-instagram.png); }
+
+.social li a.ico-instagram:hover { background-image: url(../img/ico-instagram-hv.png); }
+
+.social li a.ico-vimeo { background-image: url(../img/ico-vimeo.png); }
+
+.social li a.ico-vimeo:hover { background-image: url(../img/ico-vimeo-hv.png); }
+
+.social li a.ico-soundcloud { background-image: url(../img/ico-soundcloud.png); }
+
+.social li a.ico-soundcloud:hover { background-image: url(../img/ico-soundcloud-hv.png); }
+
+#projeto { display: none; position: fixed; z-index: 22; top: 0; left: 0; width: 100%; height: 100%; background-color: #FFF; }
+
+#projeto header { height: 130px; background-color: #FFF; }
+
+#fechar { display: block; float: left; margin-top: 35px; width: 50px; height: 50px; background: transparent url(../img/ico-fechar.png) no-repeat center center; }
+
+#logo-projeto { float: right; margin-top: 35px; width: 132px; height: 64px; background: transparent url(../img/logo-cinza.png) no-repeat center center; }
+
+#projeto header { color: #777; }
+
+#projeto header h2 { font-size: 40px; font-size: 2.5rem; line-height: 100px; font-family: "Light", Helvetica, Arial, Sans-serif; text-align: center; line-height: 130px; }
+
+#box-proj { width: 86%; height: 100%; position: fixed; top: 130px; left: 7%; background-color: #d0d0d0; padding: 80px 80px 160px 80px; overflow-x: scroll; }
+
+#box-proj p { font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-style: italic; font-size: 36px; font-size: 2.25rem; line-height: 50px; color: #777; margin-bottom: 80px; }
+
+#box-proj figure { background-color: #FFF; margin-top: 20px; }
+
+#box-proj figure img { display: block; width: 100%; }
+
+#box-proj figure figcaption { background-color: #FFF; width: 100%; color: #777; padding: 0 30px; border-top: 1px solid #CCC; font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; font-size: 22px; font-size: 1.375rem; line-height: 50px; font-style: italic; }
+
+#prev-proj, #next-proj { width: 7%; height: 100%; position: fixed; top: 130px; background-color: #8b8b8b; background-repeat: no-repeat; background-position: center top; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#prev-proj:hover, #next-proj:hover { background-color: #000; }
+
+#prev-proj { left: 0; background-image: url(../img/prev.png); }
+
+#next-proj { right: 0; background-image: url(../img/next.png); }
+
+@media screen and (max-width: 1000px) { #header { height: auto; padding-bottom: 100px; }
+  #header h1 { font-size: 60px; font-size: 3.75rem; line-height: 80px; -moz-transition: none; -o-transition: none; -webkit-transition: none; transition: none; }
+  #header h1.floated { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+  #serv-left { width: 31%; }
+  #serv-right { float: right; width: 61%; margin-right: 4%; }
+  #btn-menu.active { left: 36%; }
+  #box-menu { left: -50%; width: 50%; -moz-transition: none; -o-transition: none; -webkit-transition: none; transition: none; }
+  #footer h3 { font-size: 60px; font-size: 3.75rem; line-height: 80px; }
+  #footer address { font-size: 30px; font-size: 1.875rem; }
+  #projetos header h2 .line { width: 5%; }
+  #sobre .subtitle { padding: 45px 5%; }
+  #sobre .bio { padding: 140px 5%; }
+  #btn-menu { -moz-transition: none; -o-transition: none; -webkit-transition: none; transition: none; }
+  #btn-menu span, #btn-menu:before, #btn-menu:after { -moz-transition: none; -o-transition: none; -webkit-transition: none; transition: none; }
+  #box-proj { width: 80%; left: 10%; padding: 40px 40px 160px 40px; }
+  #prev-proj, #next-proj { width: 10%; } }
+@media screen and (max-width: 720px) { #lista-projetos li, #fotos li, #marcas li { width: 50%; }
+  #fotos li.double { width: 100%; }
+  #sobre .subtitle { padding: 45px 10%; }
+  #sobre .bio { padding: 140px 10%; }
+  #areas li { width: 100%; height: 380px; padding-top: 50px; }
+  #box-proj { width: 100%; left: 0; }
+  #prev-proj, #next-proj { display: none; } }

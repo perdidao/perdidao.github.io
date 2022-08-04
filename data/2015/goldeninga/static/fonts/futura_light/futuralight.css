@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Futura Light';
+    src: url('futuralight.eot');
+    src: url('futuralight.eot') format('embedded-opentype'),
+         url('futuralight.woff2') format('woff2'),
+         url('futuralight.woff') format('woff'),
+         url('futuralight.ttf') format('truetype'),
+         url('futuralight.svg#FuturaStdLight') format('svg');
+}

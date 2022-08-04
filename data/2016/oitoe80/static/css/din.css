@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'DIN';
+  src: url('../font/DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'),  url('../font/DINNextLTPro-Light.otf')  format('opentype'),
+	     url('../font/DINNextLTPro-Light.woff') format('woff'), url('../font/DINNextLTPro-Light.ttf')  format('truetype'), url('../font/DINNextLTPro-Light.svg#DINNextLTPro-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: url('../font/DINNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),  url('../font/DINNextLTPro-Medium.otf')  format('opentype'),
+	     url('../font/DINNextLTPro-Medium.woff') format('woff'), url('../font/DINNextLTPro-Medium.ttf')  format('truetype'), url('../font/DINNextLTPro-Medium.svg#DINNextLTPro-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}

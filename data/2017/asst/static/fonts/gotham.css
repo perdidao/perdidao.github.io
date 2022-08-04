@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Book.eot?#iefix') format('embedded-opentype'),  url('Gotham-Book.otf')  format('opentype'),
+	     url('Gotham-Book.woff') format('woff'), url('Gotham-Book.ttf')  format('truetype'), url('Gotham-Book.svg#Gotham-Book') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),  url('Gotham-Bold.otf')  format('opentype'),
+	     url('Gotham-Bold.woff') format('woff'), url('Gotham-Bold.ttf')  format('truetype'), url('Gotham-Bold.svg#Gotham-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}

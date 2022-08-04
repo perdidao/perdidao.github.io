@@ -1,0 +1,78 @@
+@import url("../fonts/didot_italic/didotitalic.css");
+@import url("../fonts/didot_regular/didotregular.css");
+@import url("../fonts/didot_headline/didotheadline.css");
+@import url("../fonts/futura_book/futurabook.css");
+@import url("../fonts/futura_book_italic/futurabookitalic.css");
+@import url("../fonts/futura_light/futuralight.css");
+@import url("../fonts/futura_light_italic/futuralightitalic.css");
+@import url("../fonts/futura_medium/futuramedium.css");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.center { width: 1240px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a { color: inherit; text-decoration: none; }
+
+body { font-family: "Futura Book", Futura, Trebuchet MS, Arial, sans-serif; font-size: 18px; font-size: 1.125rem; line-height: 1.3em; color: #1D334D; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; min-width: 640px; }
+
+::-moz-selection { color: #FFF; background-color: #1D334D; }
+
+::selection { color: #FFF; background-color: #1D334D; }
+
+#header { width: 100%; height: 90px; background-color: #FFF; }
+
+#logo { float: left; width: 15%; height: 78px; margin: 6px 0 6px 2%; background: url(../img/logo.png) no-repeat left center; }
+
+#menu { float: left; width: 66%; height: 90px; text-align: center; }
+
+#menu a { display: inline-block; height: 90px; line-height: 90px; text-transform: uppercase; padding: 0 30px; font-size: 16px; font-size: 1rem; -moz-transition: all 300ms ease-in-out; -o-transition: all 300ms ease-in-out; -webkit-transition: all 300ms ease-in-out; transition: all 300ms ease-in-out; }
+
+#menu a:hover, #menu a.current { background-color: #1D334D; color: #FFF; }
+
+#redes { display: block; float: right; width: 150px; height: 90px; line-height: 90px; margin-right: 2%; text-align: right; text-transform: uppercase; font-family: "Futura Light", Futura, Trebuchet MS, Arial, sans-serif; font-size: 16px; font-size: 1rem; }
+
+#redes img { float: left; margin: 34px 0 0 10px; display: inline-block; }
+
+#contato { text-align: center; font-size: 20px; font-size: 1.25rem; line-height: 33px; }
+
+#contato h2 { display: block; width: 100%; height: 77px; background: url(../img/linha-contato.png) no-repeat center center; font-family: "Didot Italic", Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif; font-size: 45px; font-size: 2.8125rem; padding: 10px 0 0 90px; line-height: 70px; margin: 100px 0 90px; }
+
+#contato .telefones span { font-family: "Futura Light", Futura, Trebuchet MS, Arial, sans-serif; }
+
+#contato .note-endereco { font-family: "Futura Light Italic", Futura, Trebuchet MS, Arial, sans-serif; line-height: 25px; }
+
+#footer { width: 100%; text-align: center; margin-top: 80px; }
+
+#footer .copyrights, #footer a { display: block; width: 100%; padding: 20px 0; border-top: 1px solid #1D334D; }
+
+@media screen and (max-width: 1270px) { #menu a { padding: 0 15px; } }
+@media screen and (max-width: 1024px) { #redes { display: none; }
+  #menu { float: right; width: 73%; } }
+@media screen and (max-width: 900px) { #logo { width: 20%; }
+  #menu { float: right; width: 78%; } }
+@media screen and (max-width: 860px) { #logo { width: 50%; }
+  #menu { display: none; position: absolute; z-index: 999; top: 90px; left: 0; width: 100%; }
+  #menu a { width: 100%; background-color: #FFF; }
+  #menu-button { display: block; float: right; width: 50px; height: 50px; margin: 20px 2% 20px 0; background: url(../img/ico-menu.png) no-repeat center center; } }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Geared';
+    src: url('gearedslab-bold-webfont.eot');
+    src: url('gearedslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gearedslab-bold-webfont.woff') format('woff'),
+         url('gearedslab-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
