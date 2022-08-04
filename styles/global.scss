@@ -190,7 +190,7 @@ body {
   }
 
   &__nav {
-    font-size: font-size(14);
+    font-size: font-size(16);
     line-height: font-size(22);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -224,6 +224,11 @@ body {
     &:hover {
       opacity: 0.6;
     }
+  }
+
+  &__via {
+    font-size: font-size(12);
+    color: $title;
   }
 }
 
