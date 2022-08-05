@@ -1,0 +1,114 @@
+{
+    "products":{
+        "0":{
+            "thumb":"static/images/products/gergelim_thumb.jpg",
+            "image":"static/images/products/gergelim.jpg",
+            "title":"Sembei de Gergelim",
+            "description":"Biscoito japonês tipo biju com gergelim",
+            "long_description":"Delicioso Biscoito Doce Tipo biju tipo Oriental. Esse biscoito é tradicional para quem aprecia a culinária japonesa. Ideal para servir com chás, sucos, em reunião com a família.",
+            "tabela_gergelim":true,
+            "tabela_gengibre":false,
+            "tabela_mandiopan":false
+        },
+        "1":{
+            "thumb":"static/images/products/enroladinho_thumb.jpg",
+            "image":"static/images/products/enroladinho.jpg",
+            "title":"Sembei Enroladinho",
+            "description":"Biscoito japonês tipo biju enrolado",
+            "long_description":"Delicioso Biscoito Doce Tipo biju tipo Oriental. Esse biscoito é tradicional para quem aprecia a culinária japonesa. Ideal para servir com chás, sucos, em reunião com a família.",
+            "tabela_gergelim":true,
+            "tabela_gengibre":false,
+            "tabela_mandiopan":false
+        },
+        "2":{
+            "thumb":"static/images/products/shoga_thumb.jpg",
+            "image":"static/images/products/shoga.jpg",
+            "title":"Sembei de Gengibre",
+            "description":"Biscoito japonês tipo biju com gengibre (shogá)",
+            "long_description":"Delicioso Biscoito Doce Tipo biju tipo Oriental. Esse biscoito é tradicional para quem aprecia a culinária japonesa. Ideal para servir com chás, sucos, em reunião com a família.",
+            "tabela_gergelim":false,
+            "tabela_gengibre":true,
+            "tabela_mandiopan":false
+        },
+        "3":{
+            "thumb":"static/images/products/acucarado_thumb.jpg",
+            "image":"static/images/products/acucarado.jpg",
+            "title":"Sembei Açucarado",
+            "description":"Biscoito japonês tipo biju açucarado",
+            "long_description":"Delicioso Biscoito Doce Tipo biju tipo Oriental. Esse biscoito é tradicional para quem aprecia a culinária japonesa. Ideal para servir com chás, sucos, em reunião com a família.",
+            "tabela_gergelim":false,
+            "tabela_gengibre":true,
+            "tabela_mandiopan":false
+        },
+        "4":{
+            "thumb":"static/images/products/light_thumb.jpg",
+            "image":"static/images/products/light.jpg",
+            "title":"Sembei Light",
+            "description":"Biscoito japonês tipo biju com Gergelim",
+            "long_description":"Delicioso Biscoito Doce Tipo biju tipo Oriental. Esse biscoito é tradicional para quem aprecia a culinária japonesa. Ideal para servir com chás, sucos, em reunião com a família.",
+            "tabela_gergelim":false,
+            "tabela_gengibre":false,
+            "tabela_mandiopan":false
+        },
+        "5":{
+            "thumb":"static/images/products/mandiopan_thumb.jpg",
+            "image":"static/images/products/mandiopan.jpg",
+            "title":"Madiopan",
+            "description":"Salgadinho a base de mandioca",
+            "long_description":"Salgadinho a base de fécula de mandioca. Deve ser frito antes do consumo.",
+            "tabela_gergelim":false,
+            "tabela_gengibre":false,
+            "tabela_mandiopan":true
+        }
+    },
+    "resellers":{
+        "0":{
+            "title":"L. M. Yoshida & Cia. LTDA",
+            "address":"Rua das Azaleias, 2149 - Maringá - PR",
+            "state":"PR",
+            "phone":"(44) 3031-7957"
+        },
+        "1":{
+            "title":"Yuchen Distribuidora e Importadora LTDA",
+            "address":"Rua Alto Paraná, 966 - Pinhais - PR",
+            "state":"PR",
+            "phone":"(41) 3357-4908"
+        },
+        "2":{
+            "title":"Nissei Comércio de Alimentos",
+            "address":"Avenida Sete de Setembro, 1856 - Box 298 - Curitiba - PR",
+            "state":"PR",
+            "phone":"(41) 3264-3398"
+        },
+        "3":{
+            "title":"Edson Y. Yaedu & Cia LTDA",
+            "address":"Rua Castro, 22 - Curitiba - PR",
+            "state":"PR",
+            "phone":"(41) 3018-3937"
+        },
+        "4":{
+            "title":"Campo Verde Distr. de Gen. Alimentícios LTDA",
+            "address":"Rua General Enrico Caviglia, 88 - Vila Moema - São Paulo - SP",
+            "state":"SP",
+            "phone":"(11) 3209-1358"
+        },
+        "5":{
+            "title":"Hatimaru Comercial LTDA - ME",
+            "address":"Rua Carneiro da Cunha, 387 - Bairro Saúde - São Paulo - SP",
+            "state":"SP",
+            "phone":"(11) 2578-8919"
+        },
+        "6":{
+            "title":"Suhai Distr. de Alimentos e Prod. Em Geral LTDA",
+            "address":"Rua Fernando Delgado, 89 - Vila Dorna - São Paulo - SP",
+            "state":"SP",
+            "phone":"(11) 2991-7253"
+        },
+        "7":{
+            "title":"NJ Transportes e Comércio de Alimentos LTDA",
+            "address":"Rua José Antônio Pereira, 3254, Sala A - Ipiranga - São José - SC",
+            "state":"SC",
+            "phone":"(48) 3365-7046"
+        }
+    }
+}
