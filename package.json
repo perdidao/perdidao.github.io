@@ -1,14 +1,19 @@
 {
-  "name": "perdidao.github.io",
+  "name": "lucasalmeida",
   "version": "1.0.0",
-  "main": "index.html",
-  "repository": "git@github.com:perdidao/perdidao.github.io.git",
+  "description": "self presentation page",
+  "repository": "git@github.com:perdidao/lucasalmeida",
   "author": "Lucas Almeida <lucasecalmeida@gmail.com>",
   "license": "MIT",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "sass --watch styles/main.scss:main.css"
+    "dev": "parcel",
+    "start": "parcel",
+    "build": "parcel build --public-url ./"
   },
   "devDependencies": {
-    "sass": "^1.54.2"
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.6.0"
   }
 }
